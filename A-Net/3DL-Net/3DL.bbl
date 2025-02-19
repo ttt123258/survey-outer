@@ -1,0 +1,442 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{iglesias2015multi}
+J.~E. Iglesias, M.~R. Sabuncu, Multi-atlas segmentation of biomedical images: A
+  survey, Medical Image Analysis 24~(1) (2015) 205--219.
+
+\bibitem{duncan2000Medical}
+J.~Duncan, N.~Ayache, Medical image analysis: Progress over two decades and the
+  challenges ahead, IEEE Transactions on Pattern Analysis and Machine
+  Intelligence 22~(1) (2000) 85--106.
+
+\bibitem{shen2017deep}
+D.~Shen, G.~Wu, H.-I. Suk, {Deep learning in medical image analysis}, Annual
+  Review of Biomedical Engineering 19~(1) (2017) 221--248.
+
+\bibitem{salpea2022medical}
+N.~Salpea, P.~Tzouveli, D.~Kollias, {Medical image segmentation: A review of
+  modern architectures}, in: European Conference on Computer Vision, 2022, pp.
+  691--708.
+
+\bibitem{antonelli2022medical}
+M.~Antonelli, A.~Reinke, S.~Bakas, K.~Farahani, A.~Kopp-Schneider, B.~A.
+  Landman, G.~Litjens, B.~Menze, O.~Ronneberger, R.~M. Summers, et~al., {The
+  medical segmentation decathlon}, Nature Communications 13~(1) (2022) 4128.
+
+\bibitem{zhang2006adaptive}
+Y.~Zhang, H.~Qu, Y.~Wang, {Adaptive image segmentation based on fast
+  thresholding and image merging}, in: {16th International Conference on
+  Artificial Reality and Telexistence--Workshops (ICAT'06)}, 2006, pp.
+  308--311.
+
+\bibitem{senthilkumaran2016image}
+N.~Senthilkumaran, S.~Vaithegi, Image segmentation by using thresholding
+  techniques for medical images, Computer Science \& Engineering: An
+  International Journal 6~(1) (2016) 1--13.
+
+\bibitem{chalana1997methodology}
+V.~Chalana, Y.~Kim, A methodology for evaluation of boundary detection
+  algorithms on medical images, IEEE Transactions on Medical Imaging 16~(5)
+  (1997) 642--652.
+
+\bibitem{mehena2013medical}
+J.~Mehena, {Medical images edge detection based on mathematical morphology},
+  Journal of Computer and Communication Technology 4~(1) (2013) 2.
+
+\bibitem{justice1997medical}
+R.~K. Justice, E.~M. Stokely, J.~S. Strobel, R.~E. Ideker, W.~M. Smith,
+  {Medical image segmentation using 3D seeded region growing}, in: Medical
+  Imaging 1997: Image Processing, Vol. 3034, 1997, pp. 900--910.
+
+\bibitem{li2012new}
+B.~N. Li, C.~K. Chui, S.~Chang, S.~H. Ong, A new unified level set method for
+  semi-automatic liver tumor segmentation on contrast-enhanced ct images,
+  Expert Systems with Applications 39~(10) (2012) 9661--9668.
+
+\bibitem{boykov2006graph}
+Y.~Boykov, G.~Funka-Lea, {Graph cuts and efficient N-D image segmentation},
+  International Journal of Computer Vision 70~(2) (2006) 109--131.
+
+\bibitem{manoharan2020improved}
+D.~S. Manoharan, A.~Sathesh, {Improved version of graph-cut algorithm for CT
+  images of lung cancer With clinical property condition}, Journal of
+  Artificial Intelligence and Capsule Networks 2~(4) (2020) 201--206.
+
+\bibitem{wang2022medical}
+R.~Wang, T.~Lei, R.~Cui, B.~Zhang, H.~Meng, A.~K. Nandi, Medical image
+  segmentation using deep learning: A survey, IET Image Processing 16~(5)
+  (2022) 1243--1267.
+
+\bibitem{pham2000current}
+D.~L. Pham, C.~Xu, J.~L. Prince, Current methods in medical image segmentation,
+  Annual Review of Biomedical Engineering 2~(1) (2000) 315--337.
+
+\bibitem{hesamian2019deep}
+M.~H. Hesamian, W.~Jia, X.~He, P.~Kennedy, {Deep learning techniques for
+  medical image segmentation: Achievements and challenges}, Journal of Digital
+  Imaging 32 (2019) 582--596.
+
+\bibitem{scholl2011challenges}
+I.~Scholl, T.~Aach, T.~M. Deserno, T.~Kuhlen, Challenges of medical image
+  processing, Computer Science-Research and Development 26 (2011) 5--13.
+
+\bibitem{mccrindle2021radiology}
+B.~McCrindle, K.~Zukotynski, T.~E. Doyle, M.~D. Noseworthy, {A
+  Radiology-focused review of predictive uncertainty for AI interpretability in
+  computer-assisted segmentation}, Radiology: Artificial Intelligence 3~(6)
+  (2021) e210031.
+
+\bibitem{xie2021cotr}
+Y.~Xie, J.~Zhang, C.~Shen, Y.~Xia, {CoTr: Efficiently bridging CNN and
+  Transformer for 3D medical image segmentation}, in: Medical Image Computing
+  and Computer Assisted Intervention -- MICCAI 2021, 2021, pp. 171--180.
+
+\bibitem{bao2018multi}
+S.~Bao, A.~C. Chung, {Multi-scale structured CNN with label consistency for
+  brain MR image segmentation}, Computer Methods in Biomechanics and Biomedical
+  Engineering: Imaging \& Visualization 6~(1) (2018) 113--117.
+
+\bibitem{LATEEF2019321}
+F.~Lateef, Y.~Ruichek, Survey on semantic segmentation using deep learning
+  techniques, Neurocomputing 338 (2019) 321--348.
+
+\bibitem{long2015fully}
+J.~Long, E.~Shelhamer, T.~Darrell, {Fully convolutional networks for semantic
+  segmentation}, in: Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition (CVPR), 2015, pp. 3431--3440.
+
+\bibitem{ronneberger2015u}
+O.~Ronneberger, P.~Fischer, T.~Brox, U-net: Convolutional networks for
+  biomedical image segmentation, in: Medical Image Computing and
+  Computer-Assisted Intervention -- MICCAI 2015, 2015, pp. 234--241.
+
+\bibitem{badrinarayanan2017segnet}
+V.~Badrinarayanan, A.~Kendall, R.~Cipolla, {SegNet: A deep convolutional
+  encoder-decoder architecture for image segmentation}, IEEE Transactions on
+  Pattern Analysis and Machine Intelligence 39~(12) (2017) 2481--2495.
+
+\bibitem{japkowicz2002class}
+N.~Japkowicz, S.~Stephen, The class imbalance problem: A systematic study,
+  Intelligent Data Analysis 6~(5) (2002) 429--449.
+
+\bibitem{yeung2022unified}
+M.~Yeung, E.~Sala, C.-B. Sch{\"o}nlieb, L.~Rundo, Unified focal loss:
+  Generalising dice and cross entropy-based losses to handle class imbalanced
+  medical image segmentation, Computerized Medical Imaging and Graphics 95
+  (2022) 102026.
+
+\bibitem{rezatofighi2019generalized}
+H.~Rezatofighi, N.~Tsoi, J.~Gwak, A.~Sadeghian, I.~Reid, S.~Savarese,
+  {Generalized intersection over union: A metric and a loss for bounding box
+  regression}, in: Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition (CVPR), 2019, pp. 658--666.
+
+\bibitem{lin2017focal}
+T.-Y. Lin, P.~Goyal, R.~Girshick, K.~He, P.~Dollár, {Focal loss for dense
+  object detection}, IEEE Transactions on Pattern Analysis and Machine
+  Intelligence 42~(2) (2020) 318--327.
+
+\bibitem{zhao2020rethinking}
+R.~Zhao, B.~Qian, X.~Zhang, Y.~Li, R.~Wei, Y.~Liu, Y.~Pan, {Rethinking dice
+  loss for medical image segmentation}, in: 2020 IEEE International Conference
+  on Data Mining (ICDM), 2020, pp. 851--860.
+
+\bibitem{yu2015multi}
+F.~Yu, V.~Koltun, {Multi-scale context aggregation by dilated convolutions},
+  in: International Conference on Learning Representations (ICLR), 2015.
+
+\bibitem{Lv2023Local}
+J.~Lv, Y.~Hu, Q.~Fu, Y.~Hu, L.~Lv, G.~Yang, J.~Li, Y.~Zhao, {Local feature
+  matters: Cascade multi-scale MLP for edge segmentation of medical images},
+  IEEE Transactions on NanoBioscience 22~(4) (2023) 828--835.
+
+\bibitem{srivastava2021msrf}
+A.~Srivastava, D.~Jha, S.~Chanda, U.~Pal, H.~D. Johansen, D.~Johansen, M.~A.
+  Riegler, S.~Ali, P.~Halvorsen, {MSRF-Net: A multi-scale residual fusion
+  network for biomedical image segmentation}, IEEE Journal of Biomedical and
+  Health Informatics 26~(5) (2022) 2252--2263.
+
+\bibitem{li2022global}
+Y.~Li, Y.~Zhang, J.-Y. Liu, K.~Wang, K.~Zhang, G.-S. Zhang, X.-F. Liao,
+  G.~Yang, {Global Transformer and dual local attention network via deep-
+  hierarchical feature fusion for retinal vessel segmentation}, IEEE
+  Transactions on Cybernetics 53~(9) (2023) 5826--5839.
+
+\bibitem{zheng2015conditional}
+S.~Zheng, S.~Jayasumana, B.~Romera-Paredes, V.~Vineet, Z.~Su, D.~Du, C.~Huang,
+  P.~H. Torr, {Conditional random fields as recurrent neural networks}, in:
+  Proceedings of the IEEE/CVF International Conference on Computer Vision
+  (ICCV), 2015, pp. 1529--1537.
+
+\bibitem{zhao2017pyramid}
+H.~Zhao, J.~Shi, X.~Qi, X.~Wang, J.~Jia, {Pyramid scene parsing network}, in:
+  Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR), 2017, pp. 2881--2890.
+
+\bibitem{chen2022aau}
+G.~Chen, L.~Li, Y.~Dai, J.~Zhang, M.~H. Yap, {AAU-Net: An adaptive attention
+  U-Net for breast lesions segmentation in ultrasound images}, IEEE
+  Transactions on Medical Imaging 42~(5) (2023) 1289--1300.
+
+\bibitem{chen2023rrcnet}
+G.~Chen, Y.~Dai, J.~Zhang, {RRCNet: Refinement residual convolutional network
+  for breast ultrasound images segmentation}, Engineering Applications of
+  Artificial Intelligence 117 (2023) 105601.
+
+\bibitem{ouyang2023lea}
+J.~Ouyang, S.~Liu, H.~Peng, H.~Garg, D.~N. Thanh, {LEA U-Net: A U-Net-based
+  deep learning framework with local feature enhancement and attention for
+  retinal vessel segmentation}, Complex \& Intelligent Systems 9~(6) (2023)
+  6753--6766.
+
+\bibitem{cheplygina2019cats}
+V.~Cheplygina, {Cats or cat scans: Transfer learning from natural or medical
+  image source data sets?}, Current Opinion in Biomedical Engineering 9 (2019)
+  21--27.
+
+\bibitem{karimi2021transfer}
+D.~Karimi, S.~K. Warfield, A.~Gholipour, Transfer learning in medical image
+  segmentation: New insights from analysis of the dynamics of model parameters
+  and learned representations, Artificial Intelligence in Medicine 116 (2021)
+  102078.
+
+\bibitem{li2024scribformer}
+Z.~Li, Y.~Zheng, D.~Shan, S.~Yang, Q.~Li, B.~Wang, Y.~Zhang, Q.~Hong, D.~Shen,
+  {ScribFormer: Transformer makes CNN work better for scribble-based medical
+  image segmentation}, IEEE Transactions on Medical Imaging (2024) 1--1.
+
+\bibitem{mcculloch1943logical}
+W.~S. McCulloch, W.~Pitts, A logical calculus of the ideas immanent in nervous
+  activity, The Bulletin of Mathematical Biophysics 5 (1943) 115--133.
+
+\bibitem{gao2018dendritic}
+S.~Gao, M.~Zhou, Y.~Wang, J.~Cheng, H.~Yachi, J.~Wang, {Dendritic neuron model
+  with effective learning algorithms for classification, approximation, and
+  prediction}, IEEE Transactions on Neural Networks and Learning Systems 30~(2)
+  (2019) 601--614.
+
+\bibitem{zhou2016financial}
+T.~Zhou, S.~Gao, J.~Wang, C.~Chu, Y.~Todo, Z.~Tang, Financial time series
+  prediction using a dendritic neuron model, Knowledge-Based Systems 105 (2016)
+  214--224.
+
+\bibitem{vaswani2017attention}
+A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~N. Gomez,
+  {\L}.~Kaiser, I.~Polosukhin, {Attention is all you need}, in: Advances in
+  Neural Information Processing Systems, Vol.~30, 2017.
+
+\bibitem{chen2021transunet}
+J.~Chen, Y.~Lu, Q.~Yu, X.~Luo, E.~Adeli, Y.~Wang, L.~Lu, A.~L. Yuille, Y.~Zhou,
+  {TransUNet: Transformers make strong encoders for medical image
+  segmentation}, arXiv preprint arXiv:2102.04306 (2021).
+
+\bibitem{gu2020net}
+R.~Gu, G.~Wang, T.~Song, R.~Huang, M.~Aertsen, J.~Deprest, S.~Ourselin,
+  T.~Vercauteren, S.~Zhang, {CA-Net: Comprehensive attention convolutional
+  neural networks for explainable medical image segmentation}, IEEE
+  Transactions on Medical Imaging 40~(2) (2020) 699--711.
+
+\bibitem{wang2021transbts}
+W.~Wang, C.~Chen, M.~Ding, H.~Yu, S.~Zha, J.~Li, Transbts: Multimodal brain
+  tumor segmentation using transformer, in: Medical Image Computing and
+  Computer Assisted Intervention -- MICCAI 2021, 2021, pp. 109--119.
+
+\bibitem{dosovitskiy2020image}
+A.~Dosovitskiy, L.~Beyer, A.~Kolesnikov, D.~Weissenborn, X.~Zhai,
+  T.~Unterthiner, M.~Dehghani, M.~Minderer, G.~Heigold, S.~Gelly, et~al., {An
+  image is worth 16x16 words: Transformers for image recognition at scale}, in:
+  International Conference on Learning Representations (ICLR), 2021.
+
+\bibitem{cao2022swin}
+H.~Cao, Y.~Wang, J.~Chen, D.~Jiang, X.~Zhang, Q.~Tian, M.~Wang, {Swin-Unet:
+  Unet-like pure Transformer for medical image segmentation}, in: European
+  Conference on Computer Vision, 2022, pp. 205--218.
+
+\bibitem{liu2021swin}
+Z.~Liu, Y.~Lin, Y.~Cao, H.~Hu, Y.~Wei, Z.~Zhang, S.~Lin, B.~Guo, {Swin
+  Transformer: Hierarchical vision Transformer using shifted windows}, in:
+  Proceedings of the IEEE/CVF International Conference on Computer Vision
+  (ICCV), 2021, pp. 10012--10022.
+
+\bibitem{lan2024brau}
+L.~Lan, P.~Cai, L.~Jiang, X.~Liu, Y.~Li, Y.~Zhang, {BRAU-Net++: U-Shaped hybrid
+  CNN-Transformer network for medical image segmentation}, arXiv preprint
+  arXiv:2401.00722 (2024).
+
+\bibitem{liu2016parsenet}
+W.~Liu, A.~Rabinovich, A.~C. Berg, {ParseNet: Looking wider to see b etter},
+  in: International Conference on Learning Representations (ICLR), 2016.
+
+\bibitem{chen2017deeplab}
+L.-C. Chen, G.~Papandreou, I.~Kokkinos, K.~Murphy, A.~L. Yuille, {DeepLab:
+  Semantic image segmentation with deep convolutional nets, atrous convolution,
+  and fully connected CRFs}, IEEE Transactions on Pattern Analysis and Machine
+  Intelligence 40~(4) (2017) 834--848.
+
+\bibitem{chen2018encoder}
+L.-C. Chen, Y.~Zhu, G.~Papandreou, F.~Schroff, H.~Adam, {Encoder-decoder with
+  atrous separable convolution for semantic image segmentation}, in:
+  Proceedings of the European Conference on Computer Vision (ECCV), 2018, pp.
+  801--818.
+
+\bibitem{hamaguchi2018effective}
+R.~Hamaguchi, A.~Fujita, K.~Nemoto, T.~Imaizumi, S.~Hikosaka, {Effective use of
+  dilated convolutions for segmenting small object instances in remote sensing
+  imagery}, in: 2018 IEEE Winter Conference on Applications of Computer Vision
+  (WACV), 2018, pp. 1442--1450.
+
+\bibitem{liu2020color}
+E.~Liu, S.~Li, S.~Liu, {Color enhancement using global parameters and local
+  features learning}, in: Proceedings of the Asian Conference on Computer
+  Vision (ACCV), 2020.
+
+\bibitem{richards2019deep}
+B.~A. Richards, T.~P. Lillicrap, P.~Beaudoin, Y.~Bengio, R.~Bogacz,
+  A.~Christensen, C.~Clopath, R.~P. Costa, A.~de~Berker, S.~Ganguli, et~al., A
+  deep learning framework for neuroscience, Nature Neuroscience 22~(11) (2019)
+  1761--1770.
+
+\bibitem{LARKUM20224}
+M.~E. Larkum, {Are dendrites conceptually useful?}, Neuroscience 489 (2022)
+  4--14, {Dendritic} contributions to biological and artificial computations.
+
+\bibitem{tang2022adopting}
+Y.~Tang, Z.~Song, Y.~Zhu, M.~Hou, C.~Tang, J.~Ji, Adopting a dendritic neural
+  model for predicting stock price index movement, Expert Systems with
+  Applications 205 (2022) 117637.
+
+\bibitem{ji2022survey}
+J.~Ji, C.~Tang, J.~Zhao, Z.~Tang, Y.~Todo, A survey on dendritic neuron model:
+  Mechanisms, algorithms and practical applications, Neurocomputing 489 (2022)
+  390--406.
+
+\bibitem{li2020power}
+X.~Li, J.~Tang, Q.~Zhang, B.~Gao, J.~J. Yang, S.~Song, W.~Wu, W.~Zhang, P.~Yao,
+  N.~Deng, et~al., Power-efficient neural network with artificial dendrites,
+  Nature Nanotechnology 15~(9) (2020) 776--782.
+
+\bibitem{egrioglu2022recurrent}
+E.~Egrioglu, E.~Ba{\c{s}}, M.-Y. Chen, Recurrent dendritic neuron model
+  artificial neural network for time series forecasting, Information Sciences
+  607 (2022) 572--584.
+
+\bibitem{gao2021fully}
+S.~Gao, M.~Zhou, Z.~Wang, D.~Sugiyama, J.~Cheng, J.~Wang, Y.~Todo, {Fully
+  complex-valued dendritic neuron model}, IEEE Transactions on Neural Networks
+  and Learning Systems 34~(4) (2023) 2105--2118.
+
+\bibitem{zhang2024dendritic}
+Z.~Zhang, Z.~Lei, M.~Omura, H.~Hasegawa, S.~Gao, Dendritic
+  learning-incorporated vision {Transformer} for image recognition, IEEE/CAA
+  Journal of Automatica Sinica 11~(2) (2024) 539--541.
+
+\bibitem{li2023dendritic}
+J.~Li, Z.~Liu, R.-L. Wang, S.~Gao, Dendritic deep residual learning for
+  covid-19 prediction, IEEJ Transactions on Electrical and Electronic
+  Engineering 18~(2) (2023) 297--299.
+
+\bibitem{liu2021dendrite}
+G.~Liu, J.~Wang, {Dendrite net: A white-box module for classification,
+  regression, and system identification}, IEEE Transactions on Cybernetics
+  52~(12) (2021) 13774--13787.
+
+\bibitem{bas2024robust}
+E.~Bas, E.~Egrioglu, T.~Cansu, Robust training of median dendritic artificial
+  neural networks for time series forecasting, Expert Systems with Applications
+  238 (2024) 122080.
+
+\bibitem{koch1982retinal}
+C.~Koch, T.~Poggio, V.~Torre, Retinal ganglion cells: A functional
+  interpretation of dendritic morphology, Philosophical Transactions of the
+  Royal Society of London. B, Biological Sciences 298~(1090) (1982) 227--263.
+
+\bibitem{zhang2024lightweight}
+Y.~Zhang, P.~Cai, Y.~Sun, Z.~Zhang, Z.~Lei, S.~Gao, {A Lightweight
+  multi-dendritic pyramidal neuron model with neural plasticity on image
+  recognition}, IEEE Transactions on Artificial Intelligence (2024) 1--13\href
+  {https://doi.org/10.1109/TAI.2024.3379968}
+  {\path{doi:10.1109/TAI.2024.3379968}}.
+
+\bibitem{aljabri2022review}
+M.~Aljabri, M.~AlGhamdi, A review on the use of deep learning for medical
+  images segmentation, Neurocomputing 506 (2022) 311--335.
+
+\bibitem{fu2023deep}
+Z.~Fu, J.~Li, Z.~Hua, L.~Fan, Deep supervision feature refinement attention
+  network for medical image segmentation, Engineering Applications of
+  Artificial Intelligence 125 (2023) 106666.
+
+\bibitem{NING2022108873}
+X.~Ning, W.~Tian, Z.~Yu, W.~Li, X.~Bai, Y.~Wang, {HCFNN}: High-order coverage
+  function neural network for image classification, Pattern Recognition 131
+  (2022) 108873.
+
+\bibitem{yap2017automated}
+M.~H. Yap, G.~Pons, J.~Marti, S.~Ganau, M.~Sentis, R.~Zwiggelaar, A.~K.
+  Davison, R.~Marti, {Automated breast ultrasound lesions detection using
+  convolutional neural networks}, IEEE Journal of Biomedical and Health
+  Informatics 22~(4) (2017) 1218--1226.
+
+\bibitem{zhuang2019rdau}
+Z.~Zhuang, N.~Li, A.~N. Joseph~Raj, V.~G. Mahesh, S.~Qiu, {An RDAU-NET model
+  for lesion segmentation in breast ultrasound images}, PloS one 14~(8) (2019)
+  e0221535.
+
+\bibitem{maftouni2021robust}
+M.~Maftouni, A.~C.~C. Law, B.~Shen, Z.~J.~K. Grado, Y.~Zhou, N.~A. Yazdi, {A
+  robust ensemble-deep learning model for COVID-19 diagnosis based on an
+  integrated CT scan images database}, in: IIE Annual Conference. Proceedings,
+  2021, pp. 632--637.
+
+\bibitem{he2016deep}
+K.~He, X.~Zhang, S.~Ren, J.~Sun, {Deep residual learning for image
+  recognition}, in: Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition (CVPR), 2016, pp. 770--778.
+
+\bibitem{hoorali2022irunet}
+F.~Hoorali, H.~Khosravi, B.~Moradi, Irunet for medical image segmentation,
+  Expert Systems with Applications 191 (2022) 116399.
+
+\bibitem{chen2023dseu}
+G.~Chen, Y.~Liu, J.~Qian, J.~Zhang, X.~Yin, L.~Cui, Y.~Dai, {DSEU-net: A novel
+  deep supervision SEU-net for medical ultrasound image segmentation}, Expert
+  Systems with Applications 223 (2023) 119939.
+
+\bibitem{iqbal2023bts}
+A.~Iqbal, M.~Sharif, Bts-st: Swin transformer network for segmentation and
+  classification of multimodality breast cancer images, Knowledge-Based Systems
+  267 (2023) 110393.
+
+\bibitem{zhou2018unet++}
+Z.~Zhou, M.~M. Rahman~Siddiquee, N.~Tajbakhsh, J.~Liang, {UNet++: A nested
+  U-Net architecture for medical image segmentation}, in: {Deep Learning in
+  Medical Image Analysis and Multimodal Learning for Clinical Decision
+  Support}, 2018, pp. 3--11.
+
+\bibitem{oktay2018attention}
+O.~Oktay, J.~Schlemper, L.~L. Folgoc, M.~Lee, M.~Heinrich, K.~Misawa, K.~Mori,
+  S.~McDonagh, N.~Y. Hammerla, B.~Kainz, B.~Glocker, D.~Rueckert, {Attention
+  U-Net: Learning where to look for the pancreas}, in: Medical Imaging with
+  Deep Learning, 2018.
+
+\bibitem{jin2023novel}
+S.~Jin, S.~Yu, J.~Peng, H.~Wang, Y.~Zhao, A novel medical image segmentation
+  approach by using multi-branch segmentation network based on local and global
+  information synchronous learning, Scientific Reports 13~(1) (2023) 6762.
+
+\bibitem{milletari2016v}
+F.~Milletari, N.~Navab, S.-A. Ahmadi, V-net: Fully convolutional neural
+  networks for volumetric medical image segmentation, in: 2016 fourth
+  international conference on 3D vision (3DV), 2016, pp. 565--571.
+
+\bibitem{wang2018understanding}
+P.~Wang, P.~Chen, Y.~Yuan, D.~Liu, Z.~Huang, X.~Hou, G.~Cottrell,
+  {Understanding Convolution for Semantic Segmentation}, in: 2018 IEEE winter
+  conference on applications of computer vision (WACV), 2018, pp. 1451--1460.
+
+\end{thebibliography}

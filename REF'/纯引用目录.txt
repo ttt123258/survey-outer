@@ -1,0 +1,6 @@
+@article{Knowles2003A,
+  title={A Guide to Drug Discovery: Target selection in drug discovery.},
+  author={Knowles and Jonathan and Gromo and Gianni},
+  journal={Nature Reviews Drug Discovery},
+  year={2003},
+}
