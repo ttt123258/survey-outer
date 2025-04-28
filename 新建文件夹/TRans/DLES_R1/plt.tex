@@ -1,0 +1,1680 @@
+% !TeX spellcheck = en_US
+\documentclass[journal, onecolumn]{IEEEtran}
+\usepackage{graphicx}
+\usepackage{url}
+%\usepackage{slashbox}
+\usepackage{cite}
+\usepackage{amsmath}
+\usepackage{enumerate}
+%\usepackage{algorithm}
+%\usepackage{algorithmic}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{epstopdf}
+\usepackage{subfigure}
+\usepackage{multicol}
+\usepackage{txfonts}
+\usepackage{bm}
+\usepackage{supertabular}
+\usepackage{xr}
+\usepackage{makecell}
+\usepackage{changepage}
+%\usepackage{threeparttable}
+\usepackage{bbding}
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{longtable}
+\usepackage{changepage} % adjustwidth
+\usepackage{color}
+
+%\usepackage{slashbox}
+%\usepackage{diagbox}
+%\usepackage{tabularx}
+\usepackage{color}
+\usepackage{caption}
+\definecolor{blue}{rgb}{0,0,1}
+
+\renewcommand\thetable{S.\Roman{table}}
+\renewcommand\thefigure{S.\Roman{figure}}
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+\begin{document}
+\title{Supplementary File for ``Deep Learning-based Search Space Reconstruction Empowers Evolution Algorithm for Optimization''}
+\author{
+	Yaotong Song,  Kaiyu Wang, Zhi-Hui Zhan,~\IEEEmembership{Fellow,~IEEE}, \\
+	Zhenyu Lei, and Shangce Gao,~\IEEEmembership{Senior Member,~IEEE}  
+}
+\maketitle
+\IEEEpeerreviewmaketitle
+\IEEEPARstart{T}{his} part provides the supplementary materials for the body of “Deep Learning-based Search Space Reconstruction Empowers Evolution Algorithm for Optimization”. As shown in Table~\ref{parameter}, the parameter settings of algorithms are configured as the recommended values according to the references. Tables~\ref{CEC2014_10} \textemdash \ref{CEC2014_100} present the consolidated experimental results of DLES and state-of-the-art competitive algorithms on CEC 2014 benchmark functions across dimensions 10, 30, 50, and 100. Similarly, Tables~\ref{CEC2018_10} \textemdash \ref{CEC2018_100} showcase the summarized experimental outcomes of DLES and leading competitive algorithms on CEC 2018 benchmark functions in the same dimensions. Additionally, Table~\ref{CEC2022_10} and Table~\ref{CEC2022_20} exhibit the consolidated experimental findings of DLES and state-of-the-art competitive algorithms on CEC 2022 benchmark functions in dimensions 10 and 20, respectively.
+
+\begin{table*}[t]
+	\centering
+	\caption{Comparison scores and rankings of DLES and other competitors on cec benchmarks.}
+	\vspace{-2mm}
+	\label{frideall}
+	%\phantom{0}
+	%\resizebox{\linewidth}{!}{
+		\begin{tabular}{l|l|ccc|cccccccc}	
+			\hline	
+			\multicolumn{2}{c|}{ } & \multicolumn{3}{c|}{Learning-based algorithm} & \multicolumn{7}{c}{ Traditional algorithm}\\ 
+			\hline																				
+			Benchmark	&	Dimension	&	DLES	&	LEO-PSO	&	QHSES	&	CMAES	&	DDEARA	&	EA4eig	&	HSES	&	LSHADE	&	TAPSO	&	MLGSA	\\
+			\hline																							
+			\multirow{4}{*}{CEC 2014}	& 	$D$ = 10  	&	4.0500 	&	9.7667 	&	4.1833 	&	7.5000 	&	7.0667 	&	\textbf{2.5833}	&	4.1167 	&	2.9167 	&	6.1500 	&	6.6667 	\\
+			& 	$D$ = 30 	&	3.5333 	&	9.2333 	&	3.6333 	&	6.7667 	&	8.1333 	&	3.5167 	&	3.7333 	&	\textbf{3.2333}	&	7.1167 	&	6.1000 	\\
+			& 	$D$ = 50 	&	\textbf{3.1333}	&	8.7333 	&	3.6667 	&	6.5667 	&	8.6333 	&	3.8333 	&	3.2167 	&	4.1333 	&	6.7833 	&	6.3000 	\\
+			& 	$D$ = 100 	&	\textbf{2.8333}	&	8.1333 	&	3.6667 	&	5.9000 	&	8.5333 	&	4.7000 	&	3.5333 	&	4.4333 	&	6.7833 	&	6.4833 	\\
+			\hline																							
+			\multirow{4}{*}{CEC 2018}	& 	$D$ = 10  	&	4.3621 	&	7.8276 	&	5.1897 	&	8.3103 	&	3.4483 	&	\textbf{2.2759}	&	5.1897 	&	3.7241 	&	7.1897 	&	7.4828 	\\
+			& 	$D$ = 30 	&	\textbf{2.7586}	&	9.0345 	&	3.7241 	&	7.9138 	&	6.3621 	&	3.8103 	&	3.1207 	&	3.3103 	&	7.5172 	&	7.4483 	\\
+			& 	$D$ = 50 	&	\textbf{2.6552}	&	8.8621 	&	2.9310 	&	7.2759 	&	7.0517 	&	4.4138 	&	3.0345 	&	3.6379 	&	7.3103 	&	7.8276 	\\
+			& 	$D$ = 100 	&	\textbf{2.2069}	&	8.8966 	&	2.3793 	&	6.8448 	&	7.5000 	&	5.0345 	&	2.5172 	&	4.3448 	&	7.4483 	&	7.8276 	\\
+			\hline																							
+			\multirow{2}{*}{CEC 2022}	& 	$D$ = 10  	&	2.4167 	&	9.0833 	&	3.0000 	&	5.1667 	&	7.5833 	&	\textbf{1.9167}	&	2.9167 	&	7.7500 	&	6.1667 	&	9.0000 	\\
+			& 	$D$ = 20 	&	2.7083 	&	8.2500 	&	2.8750 	&	5.3333 	&	7.7500 	&	\textbf{1.9583}	&	2.9583 	&	8.1667 	&	6.1667 	&	8.8333 	\\
+			\hline																							
+			\multicolumn{2}{c|}{Average Score}			& 	\textbf{3.0657}	&	8.7820 	&	3.5249 	&	6.7578 	&	7.2062 	&	3.4042 	&	3.4337 	&	4.5650 	&	6.8632 	&	7.3969 	\\
+			\multicolumn{2}{c|}{Total Ranking}			&	1	&	10	&	4	&	6	&	8	&	2	&	3	&	5	&	7	&	9	\\
+			\hline																
+		\end{tabular}
+		\vspace{-2mm}
+		%	}
+\end{table*}
+
+%--------------------------------------- BBOB -------------------------------
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_02D_noiselessall.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_03D_noiselessall.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_05D_noiselessall.pdf}
+	\end{minipage}
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_10D_noiselessall.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_20D_noiselessall.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_40D_noiselessall.pdf}
+	\end{minipage}
+	\caption{Overview of experimental results on the BBOB dataset}
+\end{figure}
+
+
+%第一组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f001_02D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f002_02D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f003_02D.pdf}
+	\end{minipage}
+	\caption{F1 to F3 in D=2.}
+\end{figure}
+
+% 第二组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f004_02D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f005_02D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f006_02D.pdf}
+	\end{minipage}
+	\caption{F4 to F6 in D=2.}
+\end{figure}
+
+% 第三组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f007_02D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f008_02D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f009_02D.pdf}
+	\end{minipage}
+	\caption{F7 to F9 in D=2.}
+\end{figure}
+
+% 第四组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f010_02D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f011_02D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f012_02D.pdf}
+	\end{minipage}
+	\caption{F10 to F12 in D=2.}
+\end{figure}
+
+% 第五组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f013_02D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f014_02D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f015_02D.pdf}
+	\end{minipage}
+	\caption{F13 to F15 in D=2.}
+\end{figure}
+
+% 第六组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f016_02D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f017_02D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f018_02D.pdf}
+	\end{minipage}
+	\caption{F16 to F18 in D=2.}
+\end{figure}
+
+% 第七组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f019_02D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f020_02D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f021_02D.pdf}
+	\end{minipage}
+	\caption{F19 to F21 in D=2.}
+\end{figure}
+
+% 第八组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f022_02D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f023_02D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f024_02D.pdf}
+	\end{minipage}
+	\caption{F22 to F24 in D=2.}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f001_03D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f002_03D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f003_03D.pdf}
+	\end{minipage}
+	\caption{F1 to F3 in D=3.}
+\end{figure}
+
+% 第二组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f004_03D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f005_03D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f006_03D.pdf}
+	\end{minipage}
+	\caption{F4 to F6 in D=3.}
+\end{figure}
+
+% 第三组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f007_03D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f008_03D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f009_03D.pdf}
+	\end{minipage}
+	\caption{F7 to F9 in D=3.}
+\end{figure}
+
+% 第四组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f010_03D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f011_03D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f012_03D.pdf}
+	\end{minipage}
+	\caption{F10 to F12 in D=3.}
+\end{figure}
+
+% 第五组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f013_03D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f014_03D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f015_03D.pdf}
+	\end{minipage}
+	\caption{F13 to F15 in D=3.}
+\end{figure}
+
+% 第六组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f016_03D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f017_03D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f018_03D.pdf}
+	\end{minipage}
+	\caption{F16 to F18 in D=3.}
+\end{figure}
+
+% 第七组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f019_03D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f020_03D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f021_03D.pdf}
+	\end{minipage}
+	\caption{F19 to F21 in D=3.}
+\end{figure}
+
+% 第八组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f022_03D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f023_03D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f024_03D.pdf}
+	\end{minipage}
+	\caption{F22 to F24 in D=3.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f001_05D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f002_05D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f003_05D.pdf}
+	\end{minipage}
+	\caption{F1 to F3 in D=5.}
+\end{figure}
+
+% 第二组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f004_05D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f005_05D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f006_05D.pdf}
+	\end{minipage}
+	\caption{F4 to F6 in D=5.}
+\end{figure}
+
+% 第三组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f007_05D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f008_05D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f009_05D.pdf}
+	\end{minipage}
+	\caption{F7 to F9 in D=5.}
+\end{figure}
+
+% 第四组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f010_05D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f011_05D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f012_05D.pdf}
+	\end{minipage}
+	\caption{F10 to F12 in D=5.}
+\end{figure}
+
+% 第五组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f013_05D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f014_05D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f015_05D.pdf}
+	\end{minipage}
+	\caption{F13 to F15 in D=5.}
+\end{figure}
+
+% 第六组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f016_05D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f017_05D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f018_05D.pdf}
+	\end{minipage}
+	\caption{F16 to F18 in D=5.}
+\end{figure}
+
+% 第七组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f019_05D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f020_05D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f021_05D.pdf}
+	\end{minipage}
+	\caption{F19 to F21 in D=5.}
+\end{figure}
+
+% 第八组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f022_05D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f023_05D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f024_05D.pdf}
+	\end{minipage}
+	\caption{F22 to F24 in D=5.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f001_10D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f002_10D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f003_10D.pdf}
+	\end{minipage}
+	\caption{F1 to F3 in D=10.}
+\end{figure}
+
+% 第二组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f004_10D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f005_10D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f006_10D.pdf}
+	\end{minipage}
+	\caption{F4 to F6 in D=10.}
+\end{figure}
+
+% 第三组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f007_10D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f008_10D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f009_10D.pdf}
+	\end{minipage}
+	\caption{F7 to F9 in D=10.}
+\end{figure}
+
+% 第四组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f010_10D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f011_10D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f012_10D.pdf}
+	\end{minipage}
+	\caption{F10 to F12 in D=10.}
+\end{figure}
+
+% 第五组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f013_10D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f014_10D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f015_10D.pdf}
+	\end{minipage}
+	\caption{F13 to F15 in D=10.}
+\end{figure}
+
+% 第六组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f016_10D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f017_10D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f018_10D.pdf}
+	\end{minipage}
+	\caption{F16 to F18 in D=10.}
+\end{figure}
+
+% 第七组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f019_10D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f020_10D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f021_10D.pdf}
+	\end{minipage}
+	\caption{F19 to F21 in D=10.}
+\end{figure}
+
+% 第八组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f022_10D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f023_10D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f024_10D.pdf}
+	\end{minipage}
+	\caption{F22 to F24 in D=10.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f001_20D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f002_20D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f003_20D.pdf}
+	\end{minipage}
+	\caption{F1 to F3 in D=20.}
+\end{figure}
+
+% 第二组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f004_20D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f005_20D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f006_20D.pdf}
+	\end{minipage}
+	\caption{F4 to F6 in D=20.}
+\end{figure}
+
+% 第三组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f007_20D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f008_20D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f009_20D.pdf}
+	\end{minipage}
+	\caption{F7 to F9 in D=20.}
+\end{figure}
+
+% 第四组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f010_20D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f011_20D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f012_20D.pdf}
+	\end{minipage}
+	\caption{F10 to F12 in D=20.}
+\end{figure}
+
+% 第五组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f013_20D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f014_20D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f015_20D.pdf}
+	\end{minipage}
+	\caption{F13 to F15 in D=20.}
+\end{figure}
+
+% 第六组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f016_20D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f017_20D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f018_20D.pdf}
+	\end{minipage}
+	\caption{F16 to F18 in D=20.}
+\end{figure}
+
+% 第七组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f019_20D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f020_20D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f021_20D.pdf}
+	\end{minipage}
+	\caption{F19 to F21 in D=20.}
+\end{figure}
+
+% 第八组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f022_20D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f023_20D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f024_20D.pdf}
+	\end{minipage}
+	\caption{F22 to F24 in D=20.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f001_40D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f002_40D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f003_40D.pdf}
+	\end{minipage}
+	\caption{F1 to F3 in D=40.}
+\end{figure}
+
+% 第二组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f004_40D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f005_40D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f006_40D.pdf}
+	\end{minipage}
+	\caption{F4 to F6 in D=40.}
+\end{figure}
+
+% 第三组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f007_40D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f008_40D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f009_40D.pdf}
+	\end{minipage}
+	\caption{F7 to F9 in D=40.}
+\end{figure}
+
+% 第四组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f010_40D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f011_40D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f012_40D.pdf}
+	\end{minipage}
+	\caption{F10 to F12 in D=40.}
+\end{figure}
+
+% 第五组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f013_40D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f014_40D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f015_40D.pdf}
+	\end{minipage}
+	\caption{F13 to F15 in D=40.}
+\end{figure}
+
+% 第六组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f016_40D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f017_40D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f018_40D.pdf}
+	\end{minipage}
+	\caption{F16 to F18 in D=40.}
+\end{figure}
+
+% 第七组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f019_40D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f020_40D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f021_40D.pdf}
+	\end{minipage}
+	\caption{F19 to F21 in D=40.}
+\end{figure}
+
+% 第八组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f022_40D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f023_40D.pdf}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./bbob/pprldmany_f024_40D.pdf}
+	\end{minipage}
+	\caption{F22 to F24 in D=40.}
+\end{figure}
+%---------------------------------------CEC 2018 -------------------------------
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_1.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_3.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_4.png}
+	\end{minipage}
+	\caption{F1 to F3 in D=10.}
+\end{figure}
+
+% 第二组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_5.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_6.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_7.png}
+	\end{minipage}
+	\caption{F4 to F6 in D=10.}
+\end{figure}
+
+% 第三组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_8.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_9.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_10.png}
+	\end{minipage}
+	\caption{F7 to F9 in D=10.}
+\end{figure}
+
+% 第四组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_11.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_12.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_13.png}
+	\end{minipage}
+	\caption{F10 to F12 in D=10.}
+\end{figure}
+
+% 第五组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_14.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_15.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_16.png}
+	\end{minipage}
+	\caption{F13 to F15 in D=10.}
+\end{figure}
+
+% 第六组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_17.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_18.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_19.png}
+	\end{minipage}
+	\caption{F16 to F18 in D=10.}
+\end{figure}
+
+% 第七组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_20.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_21.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_22.png}
+	\end{minipage}
+	\caption{F19 to F21 in D=10.}
+\end{figure}
+
+% 第八组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_23.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_24.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_25.png}
+	\end{minipage}
+	\caption{F22 to F24 in D=10.}
+\end{figure}
+
+% 第九组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_26.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_27.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_28.png}
+	\end{minipage}
+	\caption{F25 to F27 in D=10.}
+\end{figure}
+
+% 第十组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_29.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_10_F_30.png}
+	\end{minipage}
+	\caption{F28 and F29 in D=10.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_1.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_3.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_4.png}
+	\end{minipage}
+	\caption{F1 to F3 in D=30.}
+\end{figure}
+
+% 第二组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_5.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_6.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_7.png}
+	\end{minipage}
+	\caption{F4 to F6 in D=30.}
+\end{figure}
+
+% 第三组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_8.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_9.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_10.png}
+	\end{minipage}
+	\caption{F7 to F9 in D=30.}
+\end{figure}
+
+% 第四组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_11.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_12.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_13.png}
+	\end{minipage}
+	\caption{F30 to F12 in D=30.}
+\end{figure}
+
+% 第五组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_14.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_15.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_16.png}
+	\end{minipage}
+	\caption{F13 to F15 in D=30.}
+\end{figure}
+
+% 第六组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_17.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_18.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_19.png}
+	\end{minipage}
+	\caption{F16 to F18 in D=30.}
+\end{figure}
+
+% 第七组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_20.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_21.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_22.png}
+	\end{minipage}
+	\caption{F19 to F21 in D=30.}
+\end{figure}
+
+% 第八组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_23.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_24.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_25.png}
+	\end{minipage}
+	\caption{F22 to F24 in D=30.}
+\end{figure}
+
+% 第九组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_26.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_27.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_28.png}
+	\end{minipage}
+	\caption{F25 to F27 in D=30.}
+\end{figure}
+
+% 第十组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_29.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_30_F_30.png}
+	\end{minipage}
+	\caption{F28 and F29 in D=30.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_1.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_3.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_4.png}
+	\end{minipage}
+	\caption{F1 to F3 in D=50.}
+\end{figure}
+
+% 第二组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_5.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_6.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_7.png}
+	\end{minipage}
+	\caption{F4 to F6 in D=50.}
+\end{figure}
+
+% 第三组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_8.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_9.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_10.png}
+	\end{minipage}
+	\caption{F7 to F9 in D=50.}
+\end{figure}
+
+% 第四组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_11.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_12.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_13.png}
+	\end{minipage}
+	\caption{F50 to F12 in D=50.}
+\end{figure}
+
+% 第五组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_14.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_15.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_16.png}
+	\end{minipage}
+	\caption{F13 to F15 in D=50.}
+\end{figure}
+
+% 第六组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_17.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_18.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_19.png}
+	\end{minipage}
+	\caption{F16 to F18 in D=50.}
+\end{figure}
+
+% 第七组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_20.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_21.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_22.png}
+	\end{minipage}
+	\caption{F19 to F21 in D=50.}
+\end{figure}
+
+% 第八组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_23.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_24.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_25.png}
+	\end{minipage}
+	\caption{F22 to F24 in D=50.}
+\end{figure}
+
+% 第九组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_26.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_27.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_28.png}
+	\end{minipage}
+	\caption{F25 to F27 in D=50.}
+\end{figure}
+
+% 第十组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_29.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_50_F_30.png}
+	\end{minipage}
+	\caption{F28 and F29 in D=50.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_1.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_3.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_4.png}
+	\end{minipage}
+	\caption{F1 to F3 in D=100.}
+\end{figure}
+
+% 第二组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_5.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_6.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_7.png}
+	\end{minipage}
+	\caption{F4 to F6 in D=100.}
+\end{figure}
+
+% 第三组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_8.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_9.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_10.png}
+	\end{minipage}
+	\caption{F7 to F9 in D=100.}
+\end{figure}
+
+% 第四组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_11.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_12.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_13.png}
+	\end{minipage}
+	\caption{F100 to F12 in D=100.}
+\end{figure}
+
+% 第五组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_14.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_15.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_16.png}
+	\end{minipage}
+	\caption{F13 to F15 in D=100.}
+\end{figure}
+
+% 第六组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_17.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_18.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_19.png}
+	\end{minipage}
+	\caption{F16 to F18 in D=100.}
+\end{figure}
+
+% 第七组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_20.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_21.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_22.png}
+	\end{minipage}
+	\caption{F19 to F21 in D=100.}
+\end{figure}
+
+% 第八组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_23.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_24.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_25.png}
+	\end{minipage}
+	\caption{F22 to F24 in D=100.}
+\end{figure}
+
+% 第九组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_26.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_27.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_28.png}
+	\end{minipage}
+	\caption{F25 to F27 in D=100.}
+\end{figure}
+
+% 第十组图像
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_29.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{./save/D_100_F_30.png}
+	\end{minipage}
+	\caption{F28 and F29 in D=100.}
+\end{figure}
+\end{document}
+
+%---------------------------------------------------------------------------------------------------------------

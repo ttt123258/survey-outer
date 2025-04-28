@@ -1,0 +1,382 @@
+\begin{thebibliography}{47}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\url{#1}\endgroup}\fi
+\providecommand{\bibinfo}[2]{#2}
+
+\bibitem[{Cheng and Zhu(2014)}]{cheng2014state}
+\bibinfo{author}{M.~Cheng}, \bibinfo{author}{Y.~Zhu}, \bibinfo{title}{The state
+  of the art of wind energy conversion systems and technologies: A review},
+  \bibinfo{journal}{Energy conversion and Management} \bibinfo{volume}{88}
+  (\bibinfo{year}{2014}) \bibinfo{pages}{332--347}.
+
+\bibitem[{Mohammadi and Mostafaeipour(2013)}]{mohammadi2013using}
+\bibinfo{author}{K.~Mohammadi}, \bibinfo{author}{A.~Mostafaeipour},
+  \bibinfo{title}{Using different methods for comprehensive study of wind
+  turbine utilization in Zarrineh, Iran}, \bibinfo{journal}{Energy Conversion
+  and Management} \bibinfo{volume}{65} (\bibinfo{year}{2013})
+  \bibinfo{pages}{463--470}.
+
+\bibitem[{Kadri et~al.(2020)Kadri, Marzougui, Aouiti, and
+  Bacha}]{kadri2020energy}
+\bibinfo{author}{A.~Kadri}, \bibinfo{author}{H.~Marzougui},
+  \bibinfo{author}{A.~Aouiti}, \bibinfo{author}{F.~Bacha},
+  \bibinfo{title}{Energy management and control strategy for a DFIG wind
+  turbine/fuel cell hybrid system with super capacitor storage system},
+  \bibinfo{journal}{Energy} \bibinfo{volume}{192} (\bibinfo{year}{2020})
+  \bibinfo{pages}{116518}.
+
+\bibitem[{Zhang et~al.(2020)Zhang, Hu, Li, Cao, Huang, Huang, Chen, and
+  Blaabjerg}]{zhang2020dynamic}
+\bibinfo{author}{B.~Zhang}, \bibinfo{author}{W.~Hu}, \bibinfo{author}{J.~Li},
+  \bibinfo{author}{D.~Cao}, \bibinfo{author}{R.~Huang},
+  \bibinfo{author}{Q.~Huang}, \bibinfo{author}{Z.~Chen},
+  \bibinfo{author}{F.~Blaabjerg}, \bibinfo{title}{Dynamic energy conversion and
+  management strategy for an integrated electricity and natural gas system with
+  renewable energy: Deep reinforcement learning approach},
+  \bibinfo{journal}{Energy Conversion and Management} \bibinfo{volume}{220}
+  (\bibinfo{year}{2020}) \bibinfo{pages}{113063}.
+
+\bibitem[{Zhang et~al.(2021)Zhang, Hu, Cao, Li, Zhang, Chen, and
+  Blaabjerg}]{zhang2021soft}
+\bibinfo{author}{B.~Zhang}, \bibinfo{author}{W.~Hu}, \bibinfo{author}{D.~Cao},
+  \bibinfo{author}{T.~Li}, \bibinfo{author}{Z.~Zhang},
+  \bibinfo{author}{Z.~Chen}, \bibinfo{author}{F.~Blaabjerg},
+  \bibinfo{title}{Soft actor-critic--based multi-objective optimized energy
+  conversion and management strategy for integrated energy systems with
+  renewable energy}, \bibinfo{journal}{Energy Conversion and Management}
+  \bibinfo{volume}{243} (\bibinfo{year}{2021}) \bibinfo{pages}{114381}.
+
+\bibitem[{Zhao et~al.(2020)Zhao, Jiaqiang, Zhang, Chen, Liao, Zhang, Leng, Han,
+  and Hu}]{zhao2020review}
+\bibinfo{author}{X.~Zhao}, \bibinfo{author}{E.~Jiaqiang},
+  \bibinfo{author}{Z.~Zhang}, \bibinfo{author}{J.~Chen},
+  \bibinfo{author}{G.~Liao}, \bibinfo{author}{F.~Zhang},
+  \bibinfo{author}{E.~Leng}, \bibinfo{author}{D.~Han}, \bibinfo{author}{W.~Hu},
+  \bibinfo{title}{A review on heat enhancement in thermal energy conversion and
+  management using Field Synergy Principle}, \bibinfo{journal}{Applied Energy}
+  \bibinfo{volume}{257} (\bibinfo{year}{2020}) \bibinfo{pages}{113995}.
+
+\bibitem[{Jang et~al.(2022)Jang, Kim, Kim, and Kang}]{jang2022techno}
+\bibinfo{author}{D.~Jang}, \bibinfo{author}{K.~Kim}, \bibinfo{author}{K.-H.
+  Kim}, \bibinfo{author}{S.~Kang}, \bibinfo{title}{Techno-economic analysis and
+  Monte Carlo simulation for green hydrogen production using offshore wind
+  power plant}, \bibinfo{journal}{Energy Conversion and Management}
+  \bibinfo{volume}{263} (\bibinfo{year}{2022}) \bibinfo{pages}{115695}.
+
+\bibitem[{Cai et~al.(2020)Cai, Yang, Jin, and Wang}]{cai2020provably}
+\bibinfo{author}{Q.~Cai}, \bibinfo{author}{Z.~Yang}, \bibinfo{author}{C.~Jin},
+  \bibinfo{author}{Z.~Wang}, \bibinfo{title}{Provably efficient exploration in
+  policy optimization}, in: \bibinfo{booktitle}{International Conference on
+  Machine Learning}, \bibinfo{organization}{PMLR}, \bibinfo{pages}{1283--1294},
+  \bibinfo{year}{2020}.
+
+\bibitem[{Kuznetsova et~al.(2013)Kuznetsova, Li, Ruiz, Zio, Ault, and
+  Bell}]{kuznetsova2013reinforcement}
+\bibinfo{author}{E.~Kuznetsova}, \bibinfo{author}{Y.-F. Li},
+  \bibinfo{author}{C.~Ruiz}, \bibinfo{author}{E.~Zio},
+  \bibinfo{author}{G.~Ault}, \bibinfo{author}{K.~Bell},
+  \bibinfo{title}{Reinforcement learning for microgrid energy management},
+  \bibinfo{journal}{Energy} \bibinfo{volume}{59} (\bibinfo{year}{2013})
+  \bibinfo{pages}{133--146}.
+
+\bibitem[{Gu et~al.(2021)Gu, Cheng, Chen, and Wang}]{gu2021proximal}
+\bibinfo{author}{Y.~Gu}, \bibinfo{author}{Y.~Cheng}, \bibinfo{author}{C.~P.
+  Chen}, \bibinfo{author}{X.~Wang}, \bibinfo{title}{Proximal policy
+  optimization with policy feedback}, \bibinfo{journal}{IEEE Transactions on
+  Systems, Man, and Cybernetics: Systems}
+  \bibinfo{volume}{52}~(\bibinfo{number}{7}) (\bibinfo{year}{2021})
+  \bibinfo{pages}{4600--4610}.
+
+\bibitem[{Zhang et~al.(2022)Zhang, Zhang, Han, and L{\"u}}]{zhang2022proximal}
+\bibinfo{author}{J.~Zhang}, \bibinfo{author}{Z.~Zhang},
+  \bibinfo{author}{S.~Han}, \bibinfo{author}{S.~L{\"u}},
+  \bibinfo{title}{Proximal policy optimization via enhanced exploration
+  efficiency}, \bibinfo{journal}{Information Sciences} \bibinfo{volume}{609}
+  (\bibinfo{year}{2022}) \bibinfo{pages}{750--765}.
+
+\bibitem[{Rezaeiha et~al.(2020)Rezaeiha, Montazeri, and
+  Blocken}]{rezaeiha2020framework}
+\bibinfo{author}{A.~Rezaeiha}, \bibinfo{author}{H.~Montazeri},
+  \bibinfo{author}{B.~Blocken}, \bibinfo{title}{A framework for preliminary
+  large-scale urban wind energy potential assessment: Roof-mounted wind
+  turbines}, \bibinfo{journal}{Energy Conversion and Management}
+  \bibinfo{volume}{214} (\bibinfo{year}{2020}) \bibinfo{pages}{112770}.
+
+\bibitem[{Chen and Liu(2020)}]{chen2020medium}
+\bibinfo{author}{C.~Chen}, \bibinfo{author}{H.~Liu},
+  \bibinfo{title}{Medium-term wind power forecasting based on multi-resolution
+  multi-learner ensemble and adaptive model selection},
+  \bibinfo{journal}{Energy Conversion and Management} \bibinfo{volume}{206}
+  (\bibinfo{year}{2020}) \bibinfo{pages}{112492}.
+
+\bibitem[{Saad et~al.(2020)Saad, El-Sharkawy, Ookawara, and
+  Ahmed}]{saad2020performance}
+\bibinfo{author}{A.~S. Saad}, \bibinfo{author}{I.~I. El-Sharkawy},
+  \bibinfo{author}{S.~Ookawara}, \bibinfo{author}{M.~Ahmed},
+  \bibinfo{title}{Performance enhancement of twisted-bladed Savonius vertical
+  axis wind turbines}, \bibinfo{journal}{Energy Conversion and Management}
+  \bibinfo{volume}{209} (\bibinfo{year}{2020}) \bibinfo{pages}{112673}.
+
+\bibitem[{Mosetti et~al.(1994)Mosetti, Poloni, and
+  Diviacco}]{mosetti1994optimization}
+\bibinfo{author}{G.~Mosetti}, \bibinfo{author}{C.~Poloni},
+  \bibinfo{author}{B.~Diviacco}, \bibinfo{title}{Optimization of wind turbine
+  positioning in large windfarms by means of a genetic algorithm},
+  \bibinfo{journal}{Journal of Wind Engineering and Industrial Aerodynamics}
+  \bibinfo{volume}{51}~(\bibinfo{number}{1}) (\bibinfo{year}{1994})
+  \bibinfo{pages}{105--116}.
+
+\bibitem[{Marmidis et~al.(2008)Marmidis, Lazarou, and
+  Pyrgioti}]{marmidis2008optimal}
+\bibinfo{author}{G.~Marmidis}, \bibinfo{author}{S.~Lazarou},
+  \bibinfo{author}{E.~Pyrgioti}, \bibinfo{title}{Optimal placement of wind
+  turbines in a wind park using Monte Carlo simulation},
+  \bibinfo{journal}{Renewable Energy}
+  \bibinfo{volume}{33}~(\bibinfo{number}{7}) (\bibinfo{year}{2008})
+  \bibinfo{pages}{1455--1460}.
+
+\bibitem[{Cheng and Yao(2022)}]{cheng2022design}
+\bibinfo{author}{B.~Cheng}, \bibinfo{author}{Y.~Yao}, \bibinfo{title}{Design
+  and optimization of a novel U-type vertical axis wind turbine with response
+  surface and machine learning methodology}, \bibinfo{journal}{Energy
+  Conversion and Management} \bibinfo{volume}{273} (\bibinfo{year}{2022})
+  \bibinfo{pages}{116409}.
+
+\bibitem[{Neshat et~al.(2024)Neshat, Sergiienko, Nezhad, da~Silva, Amini,
+  Marsooli, Garcia, and Mirjalili}]{neshat2024enhancing}
+\bibinfo{author}{M.~Neshat}, \bibinfo{author}{N.~Y. Sergiienko},
+  \bibinfo{author}{M.~M. Nezhad}, \bibinfo{author}{L.~S. da~Silva},
+  \bibinfo{author}{E.~Amini}, \bibinfo{author}{R.~Marsooli},
+  \bibinfo{author}{D.~A. Garcia}, \bibinfo{author}{S.~Mirjalili},
+  \bibinfo{title}{Enhancing the performance of hybrid wave-wind energy systems
+  through a fast and adaptive chaotic multi-objective swarm optimisation
+  method}, \bibinfo{journal}{Applied Energy} \bibinfo{volume}{362}
+  (\bibinfo{year}{2024}) \bibinfo{pages}{122955}.
+
+\bibitem[{Grady et~al.(2005)Grady, Hussaini, and Abdullah}]{grady2005placement}
+\bibinfo{author}{S.~Grady}, \bibinfo{author}{M.~Hussaini},
+  \bibinfo{author}{M.~M. Abdullah}, \bibinfo{title}{Placement of wind turbines
+  using genetic algorithms}, \bibinfo{journal}{Renewable Energy}
+  \bibinfo{volume}{30}~(\bibinfo{number}{2}) (\bibinfo{year}{2005})
+  \bibinfo{pages}{259--270}.
+
+\bibitem[{Emami and Noghreh(2010)}]{emami2010new}
+\bibinfo{author}{A.~Emami}, \bibinfo{author}{P.~Noghreh}, \bibinfo{title}{New
+  approach on optimization in placement of wind turbines within wind farm by
+  genetic algorithms}, \bibinfo{journal}{Renewable Energy}
+  \bibinfo{volume}{35}~(\bibinfo{number}{7}) (\bibinfo{year}{2010})
+  \bibinfo{pages}{1559--1564}.
+
+\bibitem[{Chen et~al.(2013)Chen, Li, Jin, and Song}]{chen2013wind}
+\bibinfo{author}{Y.~Chen}, \bibinfo{author}{H.~Li}, \bibinfo{author}{K.~Jin},
+  \bibinfo{author}{Q.~Song}, \bibinfo{title}{Wind farm layout optimization
+  using genetic algorithm with different hub height wind turbines},
+  \bibinfo{journal}{Energy Conversion and Management} \bibinfo{volume}{70}
+  (\bibinfo{year}{2013}) \bibinfo{pages}{56--65}.
+
+\bibitem[{Ju et~al.(2019)Ju, Liu, Wang, and Lee}]{ju2019wind}
+\bibinfo{author}{X.~Ju}, \bibinfo{author}{F.~Liu}, \bibinfo{author}{L.~Wang},
+  \bibinfo{author}{W.-J. Lee}, \bibinfo{title}{Wind farm layout optimization
+  based on support vector regression guided genetic algorithm with
+  consideration of participation among landowners}, \bibinfo{journal}{Energy
+  Conversion and Management} \bibinfo{volume}{196} (\bibinfo{year}{2019})
+  \bibinfo{pages}{1267--1281}.
+
+\bibitem[{Ju and Liu(2019)}]{ju2019winda}
+\bibinfo{author}{X.~Ju}, \bibinfo{author}{F.~Liu}, \bibinfo{title}{Wind farm
+  layout optimization using self-informed genetic algorithm with information
+  guided exploitation}, \bibinfo{journal}{Applied Energy} \bibinfo{volume}{248}
+  (\bibinfo{year}{2019}) \bibinfo{pages}{429--445}.
+
+\bibitem[{Wang et~al.(2017)Wang, Liu, Long, Zhang, and
+  Yang}]{wang2017differential}
+\bibinfo{author}{Y.~Wang}, \bibinfo{author}{H.~Liu}, \bibinfo{author}{H.~Long},
+  \bibinfo{author}{Z.~Zhang}, \bibinfo{author}{S.~Yang},
+  \bibinfo{title}{Differential evolution with a new encoding mechanism for
+  optimizing wind farm layout}, \bibinfo{journal}{IEEE Transactions on
+  Industrial Informatics} \bibinfo{volume}{14}~(\bibinfo{number}{3})
+  (\bibinfo{year}{2017}) \bibinfo{pages}{1040--1054}.
+
+\bibitem[{Yu et~al.(2023)Yu, Zhang, Lei, Wang, Yang, and Gao}]{yu2023chaotic}
+\bibinfo{author}{Y.~Yu}, \bibinfo{author}{T.~Zhang}, \bibinfo{author}{Z.~Lei},
+  \bibinfo{author}{Y.~Wang}, \bibinfo{author}{H.~Yang},
+  \bibinfo{author}{S.~Gao}, \bibinfo{title}{A chaotic local search-based LSHADE
+  with enhanced memory storage mechanism for wind farm layout optimization},
+  \bibinfo{journal}{Applied Soft Computing} \bibinfo{volume}{141}
+  (\bibinfo{year}{2023}) \bibinfo{pages}{110306}.
+
+\bibitem[{Feng and Shen(2015)}]{feng2015solving}
+\bibinfo{author}{J.~Feng}, \bibinfo{author}{W.~Z. Shen},
+  \bibinfo{title}{Solving the wind farm layout optimization problem using
+  random search algorithm}, \bibinfo{journal}{Renewable Energy}
+  \bibinfo{volume}{78} (\bibinfo{year}{2015}) \bibinfo{pages}{182--192}.
+
+\bibitem[{Ero{\u{g}}lu and Se{\c{c}}kiner(2012)}]{erouglu2012design}
+\bibinfo{author}{Y.~Ero{\u{g}}lu}, \bibinfo{author}{S.~U. Se{\c{c}}kiner},
+  \bibinfo{title}{Design of wind farm layout using ant colony algorithm},
+  \bibinfo{journal}{Renewable Energy} \bibinfo{volume}{44}
+  (\bibinfo{year}{2012}) \bibinfo{pages}{53--62}.
+
+\bibitem[{Bai et~al.(2022)Bai, Ju, Wang, Zhou, and Liu}]{bai2022wind}
+\bibinfo{author}{F.~Bai}, \bibinfo{author}{X.~Ju}, \bibinfo{author}{S.~Wang},
+  \bibinfo{author}{W.~Zhou}, \bibinfo{author}{F.~Liu}, \bibinfo{title}{Wind
+  farm layout optimization using adaptive evolutionary algorithm with Monte
+  Carlo Tree Search reinforcement learning}, \bibinfo{journal}{Energy
+  Conversion and Management} \bibinfo{volume}{252} (\bibinfo{year}{2022})
+  \bibinfo{pages}{115047}.
+
+\bibitem[{Hou et~al.(2015)Hou, Hu, Soltani, and Chen}]{hou2015optimized}
+\bibinfo{author}{P.~Hou}, \bibinfo{author}{W.~Hu},
+  \bibinfo{author}{M.~Soltani}, \bibinfo{author}{Z.~Chen},
+  \bibinfo{title}{Optimized placement of wind turbines in large-scale offshore
+  wind farm using particle swarm optimization algorithm},
+  \bibinfo{journal}{IEEE Transactions on Sustainable Energy}
+  \bibinfo{volume}{6}~(\bibinfo{number}{4}) (\bibinfo{year}{2015})
+  \bibinfo{pages}{1272--1282}.
+
+\bibitem[{Pookpunt and Ongsakul(2013)}]{pookpunt2013optimal}
+\bibinfo{author}{S.~Pookpunt}, \bibinfo{author}{W.~Ongsakul},
+  \bibinfo{title}{Optimal placement of wind turbines within wind farm using
+  binary particle swarm optimization with time-varying acceleration
+  coefficients}, \bibinfo{journal}{Renewable Energy} \bibinfo{volume}{55}
+  (\bibinfo{year}{2013}) \bibinfo{pages}{266--276}.
+
+\bibitem[{Tao et~al.(2019)Tao, Kuenzel, Xu, and Chen}]{tao2019optimal}
+\bibinfo{author}{S.~Tao}, \bibinfo{author}{S.~Kuenzel},
+  \bibinfo{author}{Q.~Xu}, \bibinfo{author}{Z.~Chen}, \bibinfo{title}{Optimal
+  micro-siting of wind turbines in an offshore wind farm using
+  Frandsen--Gaussian wake model}, \bibinfo{journal}{IEEE Transactions on Power
+  Systems} \bibinfo{volume}{34}~(\bibinfo{number}{6}) (\bibinfo{year}{2019})
+  \bibinfo{pages}{4944--4954}.
+
+\bibitem[{Lei et~al.(2022)Lei, Gao, Wang, Yu, and Guo}]{lei2022adaptive}
+\bibinfo{author}{Z.~Lei}, \bibinfo{author}{S.~Gao}, \bibinfo{author}{Y.~Wang},
+  \bibinfo{author}{Y.~Yu}, \bibinfo{author}{L.~Guo}, \bibinfo{title}{An
+  adaptive replacement strategy-incorporated particle swarm optimizer for wind
+  farm layout optimization}, \bibinfo{journal}{Energy Conversion and
+  Management} \bibinfo{volume}{269} (\bibinfo{year}{2022})
+  \bibinfo{pages}{116174}.
+
+\bibitem[{Lei et~al.(2023)Lei, Gao, Zhang, Yang, and Li}]{lei2023chaotic}
+\bibinfo{author}{Z.~Lei}, \bibinfo{author}{S.~Gao}, \bibinfo{author}{Z.~Zhang},
+  \bibinfo{author}{H.~Yang}, \bibinfo{author}{H.~Li}, \bibinfo{title}{A Chaotic
+  Local Search-Based Particle Swarm Optimizer for Large-Scale Complex Wind Farm
+  Layout Optimization}, \bibinfo{journal}{IEEE/CAA Journal of Automatica
+  Sinica} \bibinfo{volume}{10}~(\bibinfo{number}{5}) (\bibinfo{year}{2023})
+  \bibinfo{pages}{1168--1180}.
+
+\bibitem[{Dong and Zhao(2023)}]{dong2023reinforcement}
+\bibinfo{author}{H.~Dong}, \bibinfo{author}{X.~Zhao},
+  \bibinfo{title}{Reinforcement Learning-Based Wind Farm Control: Towards Large
+  Farm Applications via Automatic Grouping and Transfer Learning},
+  \bibinfo{journal}{IEEE Transactions on Industrial Informatics} .
+
+\bibitem[{Yu and Lu(2023)}]{yu2023reinforcement}
+\bibinfo{author}{X.~Yu}, \bibinfo{author}{Y.~Lu}, \bibinfo{title}{Reinforcement
+  learning-based multi-objective differential evolution for wind farm layout
+  optimization}, \bibinfo{journal}{Energy} \bibinfo{volume}{284}
+  (\bibinfo{year}{2023}) \bibinfo{pages}{129300}.
+
+\bibitem[{Yu and Zhang(2023)}]{yu2023teaching}
+\bibinfo{author}{X.~Yu}, \bibinfo{author}{W.~Zhang}, \bibinfo{title}{A
+  teaching-learning-based optimization algorithm with reinforcement learning to
+  address wind farm layout optimization problem}, \bibinfo{journal}{Applied
+  Soft Computing}  (\bibinfo{year}{2023}) \bibinfo{pages}{111135}.
+
+\bibitem[{Dong et~al.(2021)Dong, Zhang, and Zhao}]{dong2021intelligent}
+\bibinfo{author}{H.~Dong}, \bibinfo{author}{J.~Zhang},
+  \bibinfo{author}{X.~Zhao}, \bibinfo{title}{Intelligent wind farm control via
+  deep reinforcement learning and high-fidelity simulations},
+  \bibinfo{journal}{Applied Energy} \bibinfo{volume}{292}
+  (\bibinfo{year}{2021}) \bibinfo{pages}{116928}.
+
+\bibitem[{Xie et~al.(2021)Xie, Dong, Zhao, and Karcanias}]{xie2021wind}
+\bibinfo{author}{J.~Xie}, \bibinfo{author}{H.~Dong}, \bibinfo{author}{X.~Zhao},
+  \bibinfo{author}{A.~Karcanias}, \bibinfo{title}{Wind farm power generation
+  control via double-network-based deep reinforcement learning},
+  \bibinfo{journal}{IEEE Transactions on Industrial Informatics}
+  \bibinfo{volume}{18}~(\bibinfo{number}{4}) (\bibinfo{year}{2021})
+  \bibinfo{pages}{2321--2330}.
+
+\bibitem[{Archer et~al.(2018)Archer, Vasel-Be-Hagh, Yan, Wu, Pan, Brodie, and
+  Maguire}]{archer2018review}
+\bibinfo{author}{C.~L. Archer}, \bibinfo{author}{A.~Vasel-Be-Hagh},
+  \bibinfo{author}{C.~Yan}, \bibinfo{author}{S.~Wu}, \bibinfo{author}{Y.~Pan},
+  \bibinfo{author}{J.~F. Brodie}, \bibinfo{author}{A.~E. Maguire},
+  \bibinfo{title}{Review and evaluation of wake loss models for wind energy
+  applications}, \bibinfo{journal}{Applied Energy} \bibinfo{volume}{226}
+  (\bibinfo{year}{2018}) \bibinfo{pages}{1187--1207}.
+
+\bibitem[{Gong et~al.(2015)Gong, Li, Zhou, Li, Chung, Shi, and
+  Zhang}]{gong2015genetic}
+\bibinfo{author}{Y.-J. Gong}, \bibinfo{author}{J.-J. Li},
+  \bibinfo{author}{Y.~Zhou}, \bibinfo{author}{Y.~Li}, \bibinfo{author}{H.~S.-H.
+  Chung}, \bibinfo{author}{Y.-H. Shi}, \bibinfo{author}{J.~Zhang},
+  \bibinfo{title}{Genetic learning particle swarm optimization},
+  \bibinfo{journal}{IEEE Transactions on Cybernetics}
+  \bibinfo{volume}{46}~(\bibinfo{number}{10}) (\bibinfo{year}{2015})
+  \bibinfo{pages}{2277--2290}.
+
+\bibitem[{Lei et~al.(2020)Lei, Gao, Gupta, Cheng, and
+  Yang}]{lei2020aggregative}
+\bibinfo{author}{Z.~Lei}, \bibinfo{author}{S.~Gao}, \bibinfo{author}{S.~Gupta},
+  \bibinfo{author}{J.~Cheng}, \bibinfo{author}{G.~Yang}, \bibinfo{title}{An
+  aggregative learning gravitational search algorithm with self-adaptive
+  gravitational constants}, \bibinfo{journal}{Expert Systems with Applications}
+  \bibinfo{volume}{152} (\bibinfo{year}{2020}) \bibinfo{pages}{113396}.
+
+\bibitem[{Meng et~al.(2016)Meng, Gao, Lu, Liu, and Zhang}]{meng2016new}
+\bibinfo{author}{X.-B. Meng}, \bibinfo{author}{X.~Z. Gao},
+  \bibinfo{author}{L.~Lu}, \bibinfo{author}{Y.~Liu},
+  \bibinfo{author}{H.~Zhang}, \bibinfo{title}{A new bio-inspired optimisation
+  algorithm: Bird Swarm Algorithm}, \bibinfo{journal}{Journal of Experimental
+  \& Theoretical Artificial Intelligence}
+  \bibinfo{volume}{28}~(\bibinfo{number}{4}) (\bibinfo{year}{2016})
+  \bibinfo{pages}{673--687}.
+
+\bibitem[{Gao et~al.(2019)Gao, Yu, Wang, Wang, Cheng, and
+  Zhou}]{gao2019chaotic}
+\bibinfo{author}{S.~Gao}, \bibinfo{author}{Y.~Yu}, \bibinfo{author}{Y.~Wang},
+  \bibinfo{author}{J.~Wang}, \bibinfo{author}{J.~Cheng},
+  \bibinfo{author}{M.~Zhou}, \bibinfo{title}{Chaotic local search-based
+  differential evolution algorithms for optimization}, \bibinfo{journal}{IEEE
+  Transactions on Systems, Man, and Cybernetics: Systems}
+  \bibinfo{volume}{51}~(\bibinfo{number}{6}) (\bibinfo{year}{2019})
+  \bibinfo{pages}{3954--3967}.
+
+\bibitem[{Liang et~al.(2006)Liang, Qin, Suganthan, and
+  Baskar}]{liang2006comprehensive}
+\bibinfo{author}{J.~J. Liang}, \bibinfo{author}{A.~K. Qin},
+  \bibinfo{author}{P.~N. Suganthan}, \bibinfo{author}{S.~Baskar},
+  \bibinfo{title}{Comprehensive learning particle swarm optimizer for global
+  optimization of multimodal functions}, \bibinfo{journal}{IEEE Transactions on
+  Evolutionary Computation} \bibinfo{volume}{10}~(\bibinfo{number}{3})
+  (\bibinfo{year}{2006}) \bibinfo{pages}{281--295}.
+
+\bibitem[{Wang et~al.(2019)Wang, Yu, Gao, Pan, and Yang}]{wang2019hierarchical}
+\bibinfo{author}{Y.~Wang}, \bibinfo{author}{Y.~Yu}, \bibinfo{author}{S.~Gao},
+  \bibinfo{author}{H.~Pan}, \bibinfo{author}{G.~Yang}, \bibinfo{title}{A
+  hierarchical gravitational search algorithm with an effective gravitational
+  constant}, \bibinfo{journal}{Swarm and Evolutionary Computation}
+  \bibinfo{volume}{46} (\bibinfo{year}{2019}) \bibinfo{pages}{118--139}.
+
+\bibitem[{Karimkashi and Kishk(2010)}]{karimkashi2010invasive}
+\bibinfo{author}{S.~Karimkashi}, \bibinfo{author}{A.~A. Kishk},
+  \bibinfo{title}{Invasive weed optimization and its features in
+  electromagnetics}, \bibinfo{journal}{IEEE Transactions on Antennas and
+  Propagation} \bibinfo{volume}{58}~(\bibinfo{number}{4})
+  (\bibinfo{year}{2010}) \bibinfo{pages}{1269--1278}.
+
+\bibitem[{Li et~al.(2022)Li, Han, Zhou, Tang, and Zhao}]{li2022novel}
+\bibinfo{author}{Y.~Li}, \bibinfo{author}{T.~Han}, \bibinfo{author}{H.~Zhou},
+  \bibinfo{author}{S.~Tang}, \bibinfo{author}{H.~Zhao}, \bibinfo{title}{A novel
+  adaptive L-SHADE algorithm and its application in UAV swarm resource
+  configuration problem}, \bibinfo{journal}{Information Sciences}
+  \bibinfo{volume}{606} (\bibinfo{year}{2022}) \bibinfo{pages}{350--367}.
+
+\end{thebibliography}

@@ -1,0 +1,2399 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.9)  12 SEP 2024 22:13
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**plt.tex
+(./plt.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-04-11>
+(./IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen140
+\@IEEEtrantmpdimenB=\dimen141
+\@IEEEtrantmpdimenC=\dimen142
+\@IEEEtrantmpcountA=\count189
+\@IEEEtrantmpcountB=\count190
+\@IEEEtrantmpcountC=\count191
+\@IEEEtrantmptoksA=\toks17
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+03.
+(c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+** ATTENTION: Single column mode is not typically used with IEEE publications.
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen143
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen144
+\CLASSINFOnormalsizeunitybaselineskip=\dimen145
+\IEEEnormaljot=\dimen146
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen147
+\IEEEquantizedlengthdiff=\dimen148
+\IEEEquantizedtextheightdiff=\dimen149
+\IEEEilabelindentA=\dimen150
+\IEEEilabelindentB=\dimen151
+\IEEEilabelindent=\dimen152
+\IEEEelabelindent=\dimen153
+\IEEEdlabelindent=\dimen154
+\IEEElabelindent=\dimen155
+\IEEEiednormlabelsep=\dimen156
+\IEEEiedmathlabelsep=\dimen157
+\IEEEiedtopsep=\skip48
+\c@section=\count192
+\c@subsection=\count193
+\c@subsubsection=\count194
+\c@paragraph=\count195
+\c@IEEEsubequation=\count196
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\c@figure=\count197
+\c@table=\count198
+\@IEEEeqnnumcols=\count199
+\@IEEEeqncolcnt=\count266
+\@IEEEsubeqnnumrollback=\count267
+\@IEEEquantizeheightA=\dimen158
+\@IEEEquantizeheightB=\dimen159
+\@IEEEquantizeheightC=\dimen160
+\@IEEEquantizeprevdepth=\dimen161
+\@IEEEquantizemultiple=\count268
+\@IEEEquantizeboxA=\box51
+\@IEEEtmpitemindent=\dimen162
+\IEEEPARstartletwidth=\dimen163
+\c@IEEEbiography=\count269
+\@IEEEtranrubishbin=\box52
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen164
+\Gin@req@width=\dimen165
+)
+(c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(c:/texlive/2024/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen166
+))
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen167
+)
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count270
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count271
+\leftroot@=\count272
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count273
+\DOTSCASE@=\count274
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen168
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count275
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count276
+\dotsspace@=\muskip17
+\c@parentequation=\count277
+\dspbrk@lvl=\count278
+\tag@help=\toks20
+\row@=\count279
+\column@=\count280
+\maxfields@=\count281
+\andhelp@=\toks21
+\eqnshift@=\dimen169
+\alignsep@=\dimen170
+\tagshift@=\dimen171
+\tagwidth@=\dimen172
+\totwidth@=\dimen173
+\lineht@=\dimen174
+\@envbody=\toks22
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(c:/texlive/2024/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
+\@enLab=\toks24
+)
+(c:/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip54
+\multirow@cntb=\count282
+\multirow@dima=\skip55
+\bigstrutjot=\dimen175
+)
+(c:/texlive/2024/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip56
+\subfigcapskip=\skip57
+\subfigcaptopadj=\dimen176
+\subfigbottomskip=\skip58
+\subfigcapmargin=\dimen177
+\subfiglabelskip=\skip59
+\c@subfigure=\count283
+\c@lofdepth=\count284
+\c@subtable=\count285
+\c@lotdepth=\count286
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(c:/texlive/2024/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip60
+\subfig@bottom=\skip61
+)
+(c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count287
+\float@exts=\toks25
+\float@box=\box55
+\@float@everytoks=\toks26
+\@floatcapt=\box56
+)
+(c:/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen178
+\lightrulewidth=\dimen179
+\cmidrulewidth=\dimen180
+\belowrulesep=\dimen181
+\belowbottomsep=\dimen182
+\aboverulesep=\dimen183
+\abovetopsep=\dimen184
+\cmidrulesep=\dimen185
+\cmidrulekern=\dimen186
+\defaultaddspace=\dimen187
+\@cmidla=\count288
+\@cmidlb=\count289
+\@aboverulesep=\dimen188
+\@belowrulesep=\dimen189
+\@thisruleclass=\count290
+\@lastruleclass=\count291
+\@thisrulewidth=\dimen190
+)
+(c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+
+(c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(c:/texlive/2024/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(c:/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(c:/texlive/2024/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count292
+\mult@box=\box57
+\multicol@leftmargin=\dimen191
+\c@unbalance=\count293
+\c@collectmore=\count294
+\doublecol@number=\count295
+\multicoltolerance=\count296
+\multicolpretolerance=\count297
+\full@width=\dimen192
+\page@free=\dimen193
+\premulticols=\dimen194
+\postmulticols=\dimen195
+\multicolsep=\skip62
+\multicolbaselineskip=\skip63
+\partial@page=\box58
+\last@line=\box59
+\mc@boxedresult=\box60
+\maxbalancingoverflow=\dimen196
+\mult@rightbox=\box61
+\mult@grightbox=\box62
+\mult@firstbox=\box63
+\mult@gfirstbox=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\c@minrows=\count298
+\c@columnbadness=\count299
+\c@finalcolumnbadness=\count300
+\last@try=\dimen197
+\multicolovershoot=\dimen198
+\multicolundershoot=\dimen199
+\mult@nat@firstbox=\box101
+\colbreak@box=\box102
+\mc@col@check@num=\count301
+)
+(c:/texlive/2024/texmf-dist/tex/latex/txfonts/txfonts.sty
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+\symitalic=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+\symAMSa=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 591.
+LaTeX Info: Redefining \not on input line 1043.
+)
+(c:/texlive/2024/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup10
+\symboldletters=\mathgroup11
+\symboldsymbols=\mathgroup12
+\symboldlargesymbols=\mathgroup13
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
+(c:/texlive/2024/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count302
+\ST@wd=\dimen256
+\ST@rightskip=\skip64
+\ST@leftskip=\skip65
+\ST@parfillskip=\skip66
+\ST@pageleft=\dimen257
+\ST@headht=\dimen258
+\ST@tailht=\dimen259
+\ST@pagesofar=\dimen260
+\ST@pboxht=\dimen261
+\ST@lineht=\dimen262
+\ST@prevht=\dimen263
+\ST@toadd=\dimen264
+\ST@dimen=\dimen265
+\ST@pbox=\box103
+)
+(c:/texlive/2024/texmf-dist/tex/latex/tools/xr.sty
+Package: xr 2023-07-04 v5.06 eXternal References (DPC)
+)
+(c:/texlive/2024/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+
+(c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen266
+\ar@mcellbox=\box104
+\extrarowheight=\dimen267
+\NC@list=\toks27
+\extratabsurround=\skip67
+\backup@length=\skip68
+\ar@cellbox=\box105
+)
+\rotheadsize=\dimen268
+\c@nlinenum=\count303
+\TeXr@lab=\toks28
+)
+(c:/texlive/2024/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count304
+\cp@tempcnt=\count305
+)
+(c:/texlive/2024/texmf-dist/tex/latex/bbding/bbding.sty
+Package: bbding 1999/04/15 v1.01 Dingbats symbols
+)
+(c:/texlive/2024/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count306
+
+(c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip69
+
+(c:/texlive/2024/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count307
+LaTeX Info: Redefining \checkoddpage on input line 45.
+)
+(c:/texlive/2024/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(c:/texlive/2024/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip70
+\skiplinenumber=\skip71
+\skiprule=\skip72
+\skiphlne=\skip73
+\skiptext=\skip74
+\skiplength=\skip75
+\algomargin=\skip76
+\skipalgocfslide=\skip77
+\algowidth=\dimen269
+\inoutsize=\dimen270
+\inoutindent=\dimen271
+\interspacetitleruled=\dimen272
+\interspacealgoruled=\dimen273
+\interspacetitleboxruled=\dimen274
+\algocf@ruledwidth=\skip78
+\algocf@inoutbox=\box106
+\algocf@inputbox=\box107
+\AlCapSkip=\skip79
+\AlCapHSkip=\skip80
+\algoskipindent=\skip81
+\algocf@nlbox=\box108
+\algocf@hangingbox=\box109
+\algocf@untilbox=\box110
+\algocf@skipuntil=\skip82
+\algocf@capbox=\box111
+\algocf@lcaptionbox=\skip83
+\algoheightruledefault=\skip84
+\algoheightrule=\skip85
+\algotitleheightruledefault=\skip86
+\algotitleheightrule=\skip87
+\c@algocfline=\count308
+\c@algocfproc=\count309
+\c@algocf=\count310
+\algocf@algoframe=\box112
+\algocf@algobox=\box113
+)
+(c:/texlive/2024/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip88
+\LTright=\skip89
+\LTpre=\skip90
+\LTpost=\skip91
+\LTchunksize=\count311
+\LTcapwidth=\dimen275
+\LT@head=\box114
+\LT@firsthead=\box115
+\LT@foot=\box116
+\LT@lastfoot=\box117
+\LT@gbox=\box118
+\LT@cols=\count312
+\LT@rows=\count313
+\c@LT@tables=\count314
+\c@LT@chunks=\count315
+\LT@p@ftn=\toks29
+)
+(c:/texlive/2024/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+
+(c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen276
+\captionmargin=\dimen277
+\caption@leftmargin=\dimen278
+\caption@rightmargin=\dimen279
+\caption@width=\dimen280
+\caption@indent=\dimen281
+\caption@parindent=\dimen282
+\caption@hangindent=\dimen283
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
+blestring \footnotesize \bgroup \par \centering \@IEEEtabletopskipstrut {\norma
+lfont \footnotesize #1}\\{\normalfont \footnotesize \scshape #2}\par \addvspace
+ {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptio
+nsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspac
+e \nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\nor
+malfont \footnotesize {#1.}\nobreakspace \nobreakspace }\parbox [t]{\hsize }{\n
+ormalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONcon
+ference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }
+\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi 
+\fi  on input line 1175.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count316
+\c@continuedfloat=\count317
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen284
+\caption@adjustwidth@linewidth=\dimen285
+Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+(c:/texlive/2024/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: subfigure package is loaded.
+Package caption Info: supertabular package is loaded.
+)
+Package color Info: Redefining color blue on input line 36.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 4
+4.
+
+(c:/texlive/2024/texmf-dist/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+)
+(c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-04-11 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count318
+\l__pdf_internal_box=\box119
+)
+(./plt.aux)
+\openout1 = `plt.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 44.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
+44.
+ (c:/texlive/2024/texmf-dist/tex/latex/txfonts/omltxmi.fd
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 44.
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
+44.
+
+(c:/texlive/2024/texmf-dist/tex/latex/txfonts/omstxsy.fd
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 44.
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
+44.
+
+(c:/texlive/2024/texmf-dist/tex/latex/txfonts/omxtxex.fd
+File: omxtxex.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 44.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 4
+4.
+
+(c:/texlive/2024/texmf-dist/tex/latex/txfonts/utxexa.fd
+File: utxexa.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <5> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 44.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <5> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 44.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <7> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 44.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <7> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 44.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 44.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 44.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 44.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 44.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 44.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 44.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <11> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 44.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <11> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 44.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 44.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 44.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 44.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <17> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 44.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 44.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 44.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 44.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 44.
+
+-- Lines per column: 58 (exact).
+(c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count319
+\scratchdimen=\dimen286
+\scratchbox=\box120
+\nofMPsegments=\count320
+\nofMParguments=\count321
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count322
+\MPscratchDim=\dimen287
+\MPnumerator=\count323
+\makeMPintoPDFobject=\count324
+\everyMPtoPDFconversion=\toks31
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+
+LaTeX Warning: Reference `parameter' on page 1 undefined on input line 52.
+
+
+LaTeX Warning: Reference `CEC2014_10' on page 1 undefined on input line 52.
+
+
+LaTeX Warning: Reference `CEC2014_100' on page 1 undefined on input line 52.
+
+
+LaTeX Warning: Reference `CEC2018_10' on page 1 undefined on input line 52.
+
+
+LaTeX Warning: Reference `CEC2018_100' on page 1 undefined on input line 52.
+
+
+LaTeX Warning: Reference `CEC2022_10' on page 1 undefined on input line 52.
+
+
+LaTeX Warning: Reference `CEC2022_20' on page 1 undefined on input line 52.
+
+<./bbob/pprldmany_02D_noiselessall.pdf, id=1, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_02D_noiselessall.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_02D_noiselessall.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_02D_noiselessall.pdf  used on input l
+ine 59.
+(pdftex.def)             Requested size: 154.80157pt x 116.10104pt.
+<./bbob/pprldmany_03D_noiselessall.pdf, id=2, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_03D_noiselessall.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_03D_noiselessall.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_03D_noiselessall.pdf  used on input l
+ine 63.
+(pdftex.def)             Requested size: 154.80157pt x 116.10104pt.
+<./bbob/pprldmany_05D_noiselessall.pdf, id=3, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_05D_noiselessall.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_05D_noiselessall.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_05D_noiselessall.pdf  used on input l
+ine 67.
+(pdftex.def)             Requested size: 154.80157pt x 116.10104pt.
+<./bbob/pprldmany_10D_noiselessall.pdf, id=4, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_10D_noiselessall.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_10D_noiselessall.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_10D_noiselessall.pdf  used on input l
+ine 71.
+(pdftex.def)             Requested size: 154.80157pt x 116.10104pt.
+<./bbob/pprldmany_20D_noiselessall.pdf, id=5, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_20D_noiselessall.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_20D_noiselessall.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_20D_noiselessall.pdf  used on input l
+ine 75.
+(pdftex.def)             Requested size: 154.80157pt x 116.10104pt.
+<./bbob/pprldmany_40D_noiselessall.pdf, id=6, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_40D_noiselessall.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_40D_noiselessall.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_40D_noiselessall.pdf  used on input l
+ine 79.
+(pdftex.def)             Requested size: 154.80157pt x 116.10104pt.
+<./bbob/pprldmany_f001_02D.pdf, id=7, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f001_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f001_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f001_02D.pdf  used on input line 90.
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f002_02D.pdf, id=8, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f002_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f002_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f002_02D.pdf  used on input line 94.
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f003_02D.pdf, id=9, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f003_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f003_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f003_02D.pdf  used on input line 98.
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f004_02D.pdf, id=10, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f004_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f004_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f004_02D.pdf  used on input line 108.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f005_02D.pdf, id=11, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f005_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f005_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f005_02D.pdf  used on input line 112.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f006_02D.pdf, id=12, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f006_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f006_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f006_02D.pdf  used on input line 116.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+[1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/202
+4/texmf-dist/fonts/enc/dvips/base/8r.enc} <./bbob/pprldmany_02D_noiselessall.pd
+f> <./bbob/pprldmany_03D_noiselessall.pdf> <./bbob/pprldmany_05D_noiselessall.p
+df> <./bbob/pprldmany_10D_noiselessall.pdf> <./bbob/pprldmany_20D_noiselessall.
+pdf> <./bbob/pprldmany_40D_noiselessall.pdf> <./bbob/pprldmany_f001_02D.pdf> <.
+/bbob/pprldmany_f002_02D.pdf> <./bbob/pprldmany_f003_02D.pdf>]
+<./bbob/pprldmany_f007_02D.pdf, id=184, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f007_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f007_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f007_02D.pdf  used on input line 126.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f008_02D.pdf, id=185, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f008_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f008_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f008_02D.pdf  used on input line 130.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f009_02D.pdf, id=186, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f009_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f009_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f009_02D.pdf  used on input line 134.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f010_02D.pdf, id=187, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f010_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f010_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f010_02D.pdf  used on input line 144.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f011_02D.pdf, id=188, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f011_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f011_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f011_02D.pdf  used on input line 148.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f012_02D.pdf, id=189, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f012_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f012_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f012_02D.pdf  used on input line 152.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f013_02D.pdf, id=190, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f013_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f013_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f013_02D.pdf  used on input line 162.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f014_02D.pdf, id=191, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f014_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f014_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f014_02D.pdf  used on input line 166.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f015_02D.pdf, id=192, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f015_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f015_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f015_02D.pdf  used on input line 170.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f016_02D.pdf, id=193, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f016_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f016_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f016_02D.pdf  used on input line 180.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f017_02D.pdf, id=194, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f017_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f017_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f017_02D.pdf  used on input line 184.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f018_02D.pdf, id=195, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f018_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f018_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f018_02D.pdf  used on input line 188.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+ [2 <./bbob/pprldmany_f004_02D.pdf> <./bbob/pprldmany_f005_02D.pdf> <./bbob/ppr
+ldmany_f006_02D.pdf> <./bbob/pprldmany_f007_02D.pdf> <./bbob/pprldmany_f008_02D
+.pdf> <./bbob/pprldmany_f009_02D.pdf> <./bbob/pprldmany_f010_02D.pdf> <./bbob/p
+prldmany_f011_02D.pdf> <./bbob/pprldmany_f012_02D.pdf> <./bbob/pprldmany_f013_0
+2D.pdf> <./bbob/pprldmany_f014_02D.pdf> <./bbob/pprldmany_f015_02D.pdf>]
+<./bbob/pprldmany_f019_02D.pdf, id=416, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f019_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f019_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f019_02D.pdf  used on input line 198.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f020_02D.pdf, id=417, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f020_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f020_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f020_02D.pdf  used on input line 202.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f021_02D.pdf, id=418, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f021_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f021_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f021_02D.pdf  used on input line 206.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f022_02D.pdf, id=419, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f022_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f022_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f022_02D.pdf  used on input line 216.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f023_02D.pdf, id=420, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f023_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f023_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f023_02D.pdf  used on input line 220.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f024_02D.pdf, id=421, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f024_02D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f024_02D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f024_02D.pdf  used on input line 224.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f001_03D.pdf, id=422, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f001_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f001_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f001_03D.pdf  used on input line 234.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f002_03D.pdf, id=423, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f002_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f002_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f002_03D.pdf  used on input line 238.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f003_03D.pdf, id=424, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f003_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f003_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f003_03D.pdf  used on input line 242.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f004_03D.pdf, id=425, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f004_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f004_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f004_03D.pdf  used on input line 252.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f005_03D.pdf, id=426, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f005_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f005_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f005_03D.pdf  used on input line 256.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f006_03D.pdf, id=427, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f006_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f006_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f006_03D.pdf  used on input line 260.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+ [3 <./bbob/pprldmany_f016_02D.pdf> <./bbob/pprldmany_f017_02D.pdf> <./bbob/ppr
+ldmany_f018_02D.pdf> <./bbob/pprldmany_f019_02D.pdf> <./bbob/pprldmany_f020_02D
+.pdf> <./bbob/pprldmany_f021_02D.pdf> <./bbob/pprldmany_f022_02D.pdf> <./bbob/p
+prldmany_f023_02D.pdf> <./bbob/pprldmany_f024_02D.pdf> <./bbob/pprldmany_f001_0
+3D.pdf> <./bbob/pprldmany_f002_03D.pdf> <./bbob/pprldmany_f003_03D.pdf>]
+<./bbob/pprldmany_f007_03D.pdf, id=647, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f007_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f007_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f007_03D.pdf  used on input line 270.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f008_03D.pdf, id=648, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f008_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f008_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f008_03D.pdf  used on input line 274.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f009_03D.pdf, id=649, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f009_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f009_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f009_03D.pdf  used on input line 278.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f010_03D.pdf, id=650, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f010_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f010_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f010_03D.pdf  used on input line 288.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f011_03D.pdf, id=651, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f011_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f011_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f011_03D.pdf  used on input line 292.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f012_03D.pdf, id=652, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f012_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f012_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f012_03D.pdf  used on input line 296.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f013_03D.pdf, id=653, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f013_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f013_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f013_03D.pdf  used on input line 306.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f014_03D.pdf, id=654, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f014_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f014_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f014_03D.pdf  used on input line 310.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f015_03D.pdf, id=655, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f015_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f015_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f015_03D.pdf  used on input line 314.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f016_03D.pdf, id=656, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f016_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f016_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f016_03D.pdf  used on input line 324.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f017_03D.pdf, id=657, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f017_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f017_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f017_03D.pdf  used on input line 328.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f018_03D.pdf, id=658, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f018_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f018_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f018_03D.pdf  used on input line 332.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+ [4 <./bbob/pprldmany_f004_03D.pdf> <./bbob/pprldmany_f005_03D.pdf> <./bbob/ppr
+ldmany_f006_03D.pdf> <./bbob/pprldmany_f007_03D.pdf> <./bbob/pprldmany_f008_03D
+.pdf> <./bbob/pprldmany_f009_03D.pdf> <./bbob/pprldmany_f010_03D.pdf> <./bbob/p
+prldmany_f011_03D.pdf> <./bbob/pprldmany_f012_03D.pdf> <./bbob/pprldmany_f013_0
+3D.pdf> <./bbob/pprldmany_f014_03D.pdf> <./bbob/pprldmany_f015_03D.pdf>]
+<./bbob/pprldmany_f019_03D.pdf, id=879, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f019_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f019_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f019_03D.pdf  used on input line 342.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f020_03D.pdf, id=880, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f020_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f020_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f020_03D.pdf  used on input line 346.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f021_03D.pdf, id=881, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f021_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f021_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f021_03D.pdf  used on input line 350.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f022_03D.pdf, id=882, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f022_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f022_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f022_03D.pdf  used on input line 360.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f023_03D.pdf, id=883, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f023_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f023_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f023_03D.pdf  used on input line 364.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f024_03D.pdf, id=884, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f024_03D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f024_03D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f024_03D.pdf  used on input line 368.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f001_05D.pdf, id=885, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f001_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f001_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f001_05D.pdf  used on input line 377.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f002_05D.pdf, id=886, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f002_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f002_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f002_05D.pdf  used on input line 381.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f003_05D.pdf, id=887, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f003_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f003_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f003_05D.pdf  used on input line 385.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f004_05D.pdf, id=888, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f004_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f004_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f004_05D.pdf  used on input line 395.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f005_05D.pdf, id=889, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f005_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f005_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f005_05D.pdf  used on input line 399.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f006_05D.pdf, id=890, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f006_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f006_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f006_05D.pdf  used on input line 403.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+ [5 <./bbob/pprldmany_f016_03D.pdf> <./bbob/pprldmany_f017_03D.pdf> <./bbob/ppr
+ldmany_f018_03D.pdf> <./bbob/pprldmany_f019_03D.pdf> <./bbob/pprldmany_f020_03D
+.pdf> <./bbob/pprldmany_f021_03D.pdf> <./bbob/pprldmany_f022_03D.pdf> <./bbob/p
+prldmany_f023_03D.pdf> <./bbob/pprldmany_f024_03D.pdf> <./bbob/pprldmany_f001_0
+5D.pdf> <./bbob/pprldmany_f002_05D.pdf> <./bbob/pprldmany_f003_05D.pdf>]
+<./bbob/pprldmany_f007_05D.pdf, id=1110, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f007_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f007_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f007_05D.pdf  used on input line 413.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f008_05D.pdf, id=1111, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f008_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f008_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f008_05D.pdf  used on input line 417.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f009_05D.pdf, id=1112, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f009_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f009_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f009_05D.pdf  used on input line 421.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f010_05D.pdf, id=1113, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f010_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f010_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f010_05D.pdf  used on input line 431.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f011_05D.pdf, id=1114, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f011_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f011_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f011_05D.pdf  used on input line 435.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f012_05D.pdf, id=1115, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f012_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f012_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f012_05D.pdf  used on input line 439.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f013_05D.pdf, id=1116, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f013_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f013_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f013_05D.pdf  used on input line 449.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f014_05D.pdf, id=1117, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f014_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f014_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f014_05D.pdf  used on input line 453.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f015_05D.pdf, id=1118, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f015_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f015_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f015_05D.pdf  used on input line 457.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f016_05D.pdf, id=1119, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f016_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f016_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f016_05D.pdf  used on input line 467.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f017_05D.pdf, id=1120, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f017_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f017_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f017_05D.pdf  used on input line 471.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f018_05D.pdf, id=1121, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f018_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f018_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f018_05D.pdf  used on input line 475.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+ [6 <./bbob/pprldmany_f004_05D.pdf> <./bbob/pprldmany_f005_05D.pdf> <./bbob/ppr
+ldmany_f006_05D.pdf> <./bbob/pprldmany_f007_05D.pdf> <./bbob/pprldmany_f008_05D
+.pdf> <./bbob/pprldmany_f009_05D.pdf> <./bbob/pprldmany_f010_05D.pdf> <./bbob/p
+prldmany_f011_05D.pdf> <./bbob/pprldmany_f012_05D.pdf> <./bbob/pprldmany_f013_0
+5D.pdf> <./bbob/pprldmany_f014_05D.pdf> <./bbob/pprldmany_f015_05D.pdf>]
+<./bbob/pprldmany_f019_05D.pdf, id=1342, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f019_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f019_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f019_05D.pdf  used on input line 485.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f020_05D.pdf, id=1343, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f020_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f020_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f020_05D.pdf  used on input line 489.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f021_05D.pdf, id=1344, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f021_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f021_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f021_05D.pdf  used on input line 493.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f022_05D.pdf, id=1345, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f022_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f022_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f022_05D.pdf  used on input line 503.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f023_05D.pdf, id=1346, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f023_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f023_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f023_05D.pdf  used on input line 507.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f024_05D.pdf, id=1347, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f024_05D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f024_05D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f024_05D.pdf  used on input line 511.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f001_10D.pdf, id=1348, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f001_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f001_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f001_10D.pdf  used on input line 520.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f002_10D.pdf, id=1349, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f002_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f002_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f002_10D.pdf  used on input line 524.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f003_10D.pdf, id=1350, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f003_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f003_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f003_10D.pdf  used on input line 528.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f004_10D.pdf, id=1351, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f004_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f004_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f004_10D.pdf  used on input line 538.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f005_10D.pdf, id=1352, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f005_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f005_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f005_10D.pdf  used on input line 542.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f006_10D.pdf, id=1353, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f006_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f006_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f006_10D.pdf  used on input line 546.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+ [7 <./bbob/pprldmany_f016_05D.pdf> <./bbob/pprldmany_f017_05D.pdf> <./bbob/ppr
+ldmany_f018_05D.pdf> <./bbob/pprldmany_f019_05D.pdf> <./bbob/pprldmany_f020_05D
+.pdf> <./bbob/pprldmany_f021_05D.pdf> <./bbob/pprldmany_f022_05D.pdf> <./bbob/p
+prldmany_f023_05D.pdf> <./bbob/pprldmany_f024_05D.pdf> <./bbob/pprldmany_f001_1
+0D.pdf> <./bbob/pprldmany_f002_10D.pdf> <./bbob/pprldmany_f003_10D.pdf>]
+<./bbob/pprldmany_f007_10D.pdf, id=1575, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f007_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f007_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f007_10D.pdf  used on input line 556.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f008_10D.pdf, id=1576, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f008_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f008_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f008_10D.pdf  used on input line 560.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f009_10D.pdf, id=1577, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f009_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f009_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f009_10D.pdf  used on input line 564.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f010_10D.pdf, id=1578, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f010_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f010_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f010_10D.pdf  used on input line 574.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f011_10D.pdf, id=1579, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f011_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f011_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f011_10D.pdf  used on input line 578.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f012_10D.pdf, id=1580, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f012_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f012_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f012_10D.pdf  used on input line 582.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f013_10D.pdf, id=1581, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f013_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f013_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f013_10D.pdf  used on input line 592.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f014_10D.pdf, id=1582, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f014_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f014_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f014_10D.pdf  used on input line 596.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f015_10D.pdf, id=1583, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f015_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f015_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f015_10D.pdf  used on input line 600.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f016_10D.pdf, id=1584, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f016_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f016_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f016_10D.pdf  used on input line 610.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f017_10D.pdf, id=1585, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f017_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f017_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f017_10D.pdf  used on input line 614.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f018_10D.pdf, id=1586, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f018_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f018_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f018_10D.pdf  used on input line 618.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+ [8 <./bbob/pprldmany_f004_10D.pdf> <./bbob/pprldmany_f005_10D.pdf> <./bbob/ppr
+ldmany_f006_10D.pdf> <./bbob/pprldmany_f007_10D.pdf> <./bbob/pprldmany_f008_10D
+.pdf> <./bbob/pprldmany_f009_10D.pdf> <./bbob/pprldmany_f010_10D.pdf> <./bbob/p
+prldmany_f011_10D.pdf> <./bbob/pprldmany_f012_10D.pdf> <./bbob/pprldmany_f013_1
+0D.pdf> <./bbob/pprldmany_f014_10D.pdf> <./bbob/pprldmany_f015_10D.pdf>]
+<./bbob/pprldmany_f019_10D.pdf, id=1805, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f019_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f019_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f019_10D.pdf  used on input line 628.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f020_10D.pdf, id=1806, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f020_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f020_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f020_10D.pdf  used on input line 632.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f021_10D.pdf, id=1807, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f021_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f021_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f021_10D.pdf  used on input line 636.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f022_10D.pdf, id=1808, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f022_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f022_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f022_10D.pdf  used on input line 646.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f023_10D.pdf, id=1809, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f023_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f023_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f023_10D.pdf  used on input line 650.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f024_10D.pdf, id=1810, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f024_10D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f024_10D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f024_10D.pdf  used on input line 654.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f001_20D.pdf, id=1811, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f001_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f001_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f001_20D.pdf  used on input line 663.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f002_20D.pdf, id=1812, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f002_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f002_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f002_20D.pdf  used on input line 667.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f003_20D.pdf, id=1813, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f003_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f003_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f003_20D.pdf  used on input line 671.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f004_20D.pdf, id=1814, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f004_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f004_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f004_20D.pdf  used on input line 681.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f005_20D.pdf, id=1815, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f005_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f005_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f005_20D.pdf  used on input line 685.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f006_20D.pdf, id=1816, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f006_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f006_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f006_20D.pdf  used on input line 689.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+ [9 <./bbob/pprldmany_f016_10D.pdf> <./bbob/pprldmany_f017_10D.pdf> <./bbob/ppr
+ldmany_f018_10D.pdf> <./bbob/pprldmany_f019_10D.pdf> <./bbob/pprldmany_f020_10D
+.pdf> <./bbob/pprldmany_f021_10D.pdf> <./bbob/pprldmany_f022_10D.pdf> <./bbob/p
+prldmany_f023_10D.pdf> <./bbob/pprldmany_f024_10D.pdf> <./bbob/pprldmany_f001_2
+0D.pdf> <./bbob/pprldmany_f002_20D.pdf> <./bbob/pprldmany_f003_20D.pdf>]
+<./bbob/pprldmany_f007_20D.pdf, id=2037, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f007_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f007_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f007_20D.pdf  used on input line 699.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f008_20D.pdf, id=2038, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f008_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f008_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f008_20D.pdf  used on input line 703.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f009_20D.pdf, id=2039, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f009_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f009_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f009_20D.pdf  used on input line 707.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f010_20D.pdf, id=2040, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f010_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f010_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f010_20D.pdf  used on input line 717.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f011_20D.pdf, id=2041, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f011_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f011_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f011_20D.pdf  used on input line 721.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f012_20D.pdf, id=2042, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f012_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f012_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f012_20D.pdf  used on input line 725.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f013_20D.pdf, id=2043, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f013_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f013_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f013_20D.pdf  used on input line 735.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f014_20D.pdf, id=2044, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f014_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f014_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f014_20D.pdf  used on input line 739.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f015_20D.pdf, id=2045, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f015_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f015_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f015_20D.pdf  used on input line 743.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f016_20D.pdf, id=2046, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f016_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f016_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f016_20D.pdf  used on input line 753.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f017_20D.pdf, id=2047, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f017_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f017_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f017_20D.pdf  used on input line 757.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f018_20D.pdf, id=2048, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f018_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f018_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f018_20D.pdf  used on input line 761.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+ [10 <./bbob/pprldmany_f004_20D.pdf> <./bbob/pprldmany_f005_20D.pdf> <./bbob/pp
+rldmany_f006_20D.pdf> <./bbob/pprldmany_f007_20D.pdf> <./bbob/pprldmany_f008_20
+D.pdf> <./bbob/pprldmany_f009_20D.pdf> <./bbob/pprldmany_f010_20D.pdf> <./bbob/
+pprldmany_f011_20D.pdf> <./bbob/pprldmany_f012_20D.pdf> <./bbob/pprldmany_f013_
+20D.pdf> <./bbob/pprldmany_f014_20D.pdf> <./bbob/pprldmany_f015_20D.pdf>]
+<./bbob/pprldmany_f019_20D.pdf, id=2267, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f019_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f019_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f019_20D.pdf  used on input line 771.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f020_20D.pdf, id=2268, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f020_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f020_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f020_20D.pdf  used on input line 775.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f021_20D.pdf, id=2269, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f021_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f021_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f021_20D.pdf  used on input line 779.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f022_20D.pdf, id=2270, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f022_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f022_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f022_20D.pdf  used on input line 789.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f023_20D.pdf, id=2271, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f023_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f023_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f023_20D.pdf  used on input line 793.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f024_20D.pdf, id=2272, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f024_20D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f024_20D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f024_20D.pdf  used on input line 797.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f001_40D.pdf, id=2273, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f001_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f001_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f001_40D.pdf  used on input line 806.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f002_40D.pdf, id=2274, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f002_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f002_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f002_40D.pdf  used on input line 810.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f003_40D.pdf, id=2275, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f003_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f003_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f003_40D.pdf  used on input line 814.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f004_40D.pdf, id=2276, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f004_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f004_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f004_40D.pdf  used on input line 824.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f005_40D.pdf, id=2277, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f005_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f005_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f005_40D.pdf  used on input line 828.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f006_40D.pdf, id=2278, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f006_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f006_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f006_40D.pdf  used on input line 832.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+[11 <./bbob/pprldmany_f016_20D.pdf> <./bbob/pprldmany_f017_20D.pdf> <./bbob/ppr
+ldmany_f018_20D.pdf> <./bbob/pprldmany_f019_20D.pdf> <./bbob/pprldmany_f020_20D
+.pdf> <./bbob/pprldmany_f021_20D.pdf> <./bbob/pprldmany_f022_20D.pdf> <./bbob/p
+prldmany_f023_20D.pdf> <./bbob/pprldmany_f024_20D.pdf> <./bbob/pprldmany_f001_4
+0D.pdf> <./bbob/pprldmany_f002_40D.pdf> <./bbob/pprldmany_f003_40D.pdf>]
+<./bbob/pprldmany_f007_40D.pdf, id=2496, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f007_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f007_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f007_40D.pdf  used on input line 842.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f008_40D.pdf, id=2497, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f008_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f008_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f008_40D.pdf  used on input line 846.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f009_40D.pdf, id=2498, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f009_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f009_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f009_40D.pdf  used on input line 850.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f010_40D.pdf, id=2499, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f010_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f010_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f010_40D.pdf  used on input line 860.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f011_40D.pdf, id=2500, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f011_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f011_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f011_40D.pdf  used on input line 864.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f012_40D.pdf, id=2501, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f012_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f012_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f012_40D.pdf  used on input line 868.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f013_40D.pdf, id=2502, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f013_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f013_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f013_40D.pdf  used on input line 878.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f014_40D.pdf, id=2503, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f014_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f014_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f014_40D.pdf  used on input line 882.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f015_40D.pdf, id=2504, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f015_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f015_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f015_40D.pdf  used on input line 886.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f016_40D.pdf, id=2505, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f016_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f016_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f016_40D.pdf  used on input line 896.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f017_40D.pdf, id=2506, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f017_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f017_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f017_40D.pdf  used on input line 900.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f018_40D.pdf, id=2507, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f018_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f018_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f018_40D.pdf  used on input line 904.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+
+[12 <./bbob/pprldmany_f004_40D.pdf> <./bbob/pprldmany_f005_40D.pdf> <./bbob/ppr
+ldmany_f006_40D.pdf> <./bbob/pprldmany_f007_40D.pdf> <./bbob/pprldmany_f008_40D
+.pdf> <./bbob/pprldmany_f009_40D.pdf> <./bbob/pprldmany_f010_40D.pdf> <./bbob/p
+prldmany_f011_40D.pdf> <./bbob/pprldmany_f012_40D.pdf> <./bbob/pprldmany_f013_4
+0D.pdf> <./bbob/pprldmany_f014_40D.pdf> <./bbob/pprldmany_f015_40D.pdf>]
+<./bbob/pprldmany_f019_40D.pdf, id=2724, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f019_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f019_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f019_40D.pdf  used on input line 914.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f020_40D.pdf, id=2725, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f020_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f020_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f020_40D.pdf  used on input line 918.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f021_40D.pdf, id=2726, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f021_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f021_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f021_40D.pdf  used on input line 922.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f022_40D.pdf, id=2727, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f022_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f022_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f022_40D.pdf  used on input line 932.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f023_40D.pdf, id=2728, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f023_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f023_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f023_40D.pdf  used on input line 936.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./bbob/pprldmany_f024_40D.pdf, id=2729, 462.52798pt x 346.89601pt>
+File: ./bbob/pprldmany_f024_40D.pdf Graphic file (type pdf)
+<use ./bbob/pprldmany_f024_40D.pdf>
+Package pdftex.def Info: ./bbob/pprldmany_f024_40D.pdf  used on input line 940.
+
+(pdftex.def)             Requested size: 165.12378pt x 123.84499pt.
+<./save/D_10_F_1.png, id=2730, 578.16pt x 722.7pt>
+File: ./save/D_10_F_1.png Graphic file (type png)
+<use ./save/D_10_F_1.png>
+Package pdftex.def Info: ./save/D_10_F_1.png  used on input line 949.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_3.png, id=2732, 578.16pt x 722.7pt>
+File: ./save/D_10_F_3.png Graphic file (type png)
+<use ./save/D_10_F_3.png>
+Package pdftex.def Info: ./save/D_10_F_3.png  used on input line 953.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_4.png, id=2733, 578.16pt x 722.7pt>
+File: ./save/D_10_F_4.png Graphic file (type png)
+<use ./save/D_10_F_4.png>
+Package pdftex.def Info: ./save/D_10_F_4.png  used on input line 957.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+
+[13 <./bbob/pprldmany_f016_40D.pdf> <./bbob/pprldmany_f017_40D.pdf> <./bbob/ppr
+ldmany_f018_40D.pdf> <./bbob/pprldmany_f019_40D.pdf> <./bbob/pprldmany_f020_40D
+.pdf> <./bbob/pprldmany_f021_40D.pdf> <./bbob/pprldmany_f022_40D.pdf> <./bbob/p
+prldmany_f023_40D.pdf> <./bbob/pprldmany_f024_40D.pdf>]
+<./save/D_10_F_5.png, id=2899, 578.16pt x 722.7pt>
+File: ./save/D_10_F_5.png Graphic file (type png)
+<use ./save/D_10_F_5.png>
+Package pdftex.def Info: ./save/D_10_F_5.png  used on input line 967.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_6.png, id=2900, 578.16pt x 722.7pt>
+File: ./save/D_10_F_6.png Graphic file (type png)
+<use ./save/D_10_F_6.png>
+Package pdftex.def Info: ./save/D_10_F_6.png  used on input line 971.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_7.png, id=2901, 578.16pt x 722.7pt>
+File: ./save/D_10_F_7.png Graphic file (type png)
+<use ./save/D_10_F_7.png>
+Package pdftex.def Info: ./save/D_10_F_7.png  used on input line 975.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_8.png, id=2902, 578.16pt x 722.7pt>
+File: ./save/D_10_F_8.png Graphic file (type png)
+<use ./save/D_10_F_8.png>
+Package pdftex.def Info: ./save/D_10_F_8.png  used on input line 985.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_9.png, id=2903, 578.16pt x 722.7pt>
+File: ./save/D_10_F_9.png Graphic file (type png)
+<use ./save/D_10_F_9.png>
+Package pdftex.def Info: ./save/D_10_F_9.png  used on input line 989.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_10.png, id=2904, 578.16pt x 722.7pt>
+File: ./save/D_10_F_10.png Graphic file (type png)
+<use ./save/D_10_F_10.png>
+Package pdftex.def Info: ./save/D_10_F_10.png  used on input line 993.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_11.png, id=2905, 578.16pt x 722.7pt>
+File: ./save/D_10_F_11.png Graphic file (type png)
+<use ./save/D_10_F_11.png>
+Package pdftex.def Info: ./save/D_10_F_11.png  used on input line 1003.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_12.png, id=2906, 578.16pt x 722.7pt>
+File: ./save/D_10_F_12.png Graphic file (type png)
+<use ./save/D_10_F_12.png>
+Package pdftex.def Info: ./save/D_10_F_12.png  used on input line 1007.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_13.png, id=2907, 578.16pt x 722.7pt>
+File: ./save/D_10_F_13.png Graphic file (type png)
+<use ./save/D_10_F_13.png>
+Package pdftex.def Info: ./save/D_10_F_13.png  used on input line 1011.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+ [14 <./save/D_10_F_1.png> <./save/D_10_F_3.png> <./save/D_10_F_4.png> <./save/
+D_10_F_5.png> <./save/D_10_F_6.png> <./save/D_10_F_7.png> <./save/D_10_F_8.png>
+ <./save/D_10_F_9.png> <./save/D_10_F_10.png>]
+<./save/D_10_F_14.png, id=2920, 578.16pt x 722.7pt>
+File: ./save/D_10_F_14.png Graphic file (type png)
+<use ./save/D_10_F_14.png>
+Package pdftex.def Info: ./save/D_10_F_14.png  used on input line 1021.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_15.png, id=2921, 578.16pt x 722.7pt>
+File: ./save/D_10_F_15.png Graphic file (type png)
+<use ./save/D_10_F_15.png>
+Package pdftex.def Info: ./save/D_10_F_15.png  used on input line 1025.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_16.png, id=2922, 578.16pt x 722.7pt>
+File: ./save/D_10_F_16.png Graphic file (type png)
+<use ./save/D_10_F_16.png>
+Package pdftex.def Info: ./save/D_10_F_16.png  used on input line 1029.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_17.png, id=2923, 578.16pt x 722.7pt>
+File: ./save/D_10_F_17.png Graphic file (type png)
+<use ./save/D_10_F_17.png>
+Package pdftex.def Info: ./save/D_10_F_17.png  used on input line 1039.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_18.png, id=2924, 578.16pt x 722.7pt>
+File: ./save/D_10_F_18.png Graphic file (type png)
+<use ./save/D_10_F_18.png>
+Package pdftex.def Info: ./save/D_10_F_18.png  used on input line 1043.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_19.png, id=2925, 578.16pt x 722.7pt>
+File: ./save/D_10_F_19.png Graphic file (type png)
+<use ./save/D_10_F_19.png>
+Package pdftex.def Info: ./save/D_10_F_19.png  used on input line 1047.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_20.png, id=2926, 578.16pt x 722.7pt>
+File: ./save/D_10_F_20.png Graphic file (type png)
+<use ./save/D_10_F_20.png>
+Package pdftex.def Info: ./save/D_10_F_20.png  used on input line 1057.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_21.png, id=2927, 578.16pt x 722.7pt>
+File: ./save/D_10_F_21.png Graphic file (type png)
+<use ./save/D_10_F_21.png>
+Package pdftex.def Info: ./save/D_10_F_21.png  used on input line 1061.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_22.png, id=2928, 578.16pt x 722.7pt>
+File: ./save/D_10_F_22.png Graphic file (type png)
+<use ./save/D_10_F_22.png>
+Package pdftex.def Info: ./save/D_10_F_22.png  used on input line 1065.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+ [15 <./save/D_10_F_11.png> <./save/D_10_F_12.png> <./save/D_10_F_13.png> <./sa
+ve/D_10_F_14.png> <./save/D_10_F_15.png> <./save/D_10_F_16.png> <./save/D_10_F_
+17.png> <./save/D_10_F_18.png> <./save/D_10_F_19.png>]
+<./save/D_10_F_23.png, id=2941, 578.16pt x 722.7pt>
+File: ./save/D_10_F_23.png Graphic file (type png)
+<use ./save/D_10_F_23.png>
+Package pdftex.def Info: ./save/D_10_F_23.png  used on input line 1075.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_24.png, id=2942, 578.16pt x 722.7pt>
+File: ./save/D_10_F_24.png Graphic file (type png)
+<use ./save/D_10_F_24.png>
+Package pdftex.def Info: ./save/D_10_F_24.png  used on input line 1079.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_25.png, id=2943, 578.16pt x 722.7pt>
+File: ./save/D_10_F_25.png Graphic file (type png)
+<use ./save/D_10_F_25.png>
+Package pdftex.def Info: ./save/D_10_F_25.png  used on input line 1083.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_26.png, id=2944, 578.16pt x 722.7pt>
+File: ./save/D_10_F_26.png Graphic file (type png)
+<use ./save/D_10_F_26.png>
+Package pdftex.def Info: ./save/D_10_F_26.png  used on input line 1093.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_27.png, id=2945, 578.16pt x 722.7pt>
+File: ./save/D_10_F_27.png Graphic file (type png)
+<use ./save/D_10_F_27.png>
+Package pdftex.def Info: ./save/D_10_F_27.png  used on input line 1097.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_28.png, id=2946, 578.16pt x 722.7pt>
+File: ./save/D_10_F_28.png Graphic file (type png)
+<use ./save/D_10_F_28.png>
+Package pdftex.def Info: ./save/D_10_F_28.png  used on input line 1101.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_29.png, id=2947, 578.16pt x 722.7pt>
+File: ./save/D_10_F_29.png Graphic file (type png)
+<use ./save/D_10_F_29.png>
+Package pdftex.def Info: ./save/D_10_F_29.png  used on input line 1111.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_10_F_30.png, id=2948, 578.16pt x 722.7pt>
+File: ./save/D_10_F_30.png Graphic file (type png)
+<use ./save/D_10_F_30.png>
+Package pdftex.def Info: ./save/D_10_F_30.png  used on input line 1115.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+
+[16 <./save/D_10_F_20.png> <./save/D_10_F_21.png> <./save/D_10_F_22.png> <./sav
+e/D_10_F_23.png> <./save/D_10_F_24.png> <./save/D_10_F_25.png> <./save/D_10_F_2
+6.png> <./save/D_10_F_27.png> <./save/D_10_F_28.png>]
+<./save/D_30_F_1.png, id=2961, 578.16pt x 722.7pt>
+File: ./save/D_30_F_1.png Graphic file (type png)
+<use ./save/D_30_F_1.png>
+Package pdftex.def Info: ./save/D_30_F_1.png  used on input line 1124.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_3.png, id=2962, 578.16pt x 722.7pt>
+File: ./save/D_30_F_3.png Graphic file (type png)
+<use ./save/D_30_F_3.png>
+Package pdftex.def Info: ./save/D_30_F_3.png  used on input line 1128.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_4.png, id=2963, 578.16pt x 722.7pt>
+File: ./save/D_30_F_4.png Graphic file (type png)
+<use ./save/D_30_F_4.png>
+Package pdftex.def Info: ./save/D_30_F_4.png  used on input line 1132.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_5.png, id=2964, 578.16pt x 722.7pt>
+File: ./save/D_30_F_5.png Graphic file (type png)
+<use ./save/D_30_F_5.png>
+Package pdftex.def Info: ./save/D_30_F_5.png  used on input line 1142.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_6.png, id=2965, 578.16pt x 722.7pt>
+File: ./save/D_30_F_6.png Graphic file (type png)
+<use ./save/D_30_F_6.png>
+Package pdftex.def Info: ./save/D_30_F_6.png  used on input line 1146.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_7.png, id=2966, 578.16pt x 722.7pt>
+File: ./save/D_30_F_7.png Graphic file (type png)
+<use ./save/D_30_F_7.png>
+Package pdftex.def Info: ./save/D_30_F_7.png  used on input line 1150.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_8.png, id=2967, 578.16pt x 722.7pt>
+File: ./save/D_30_F_8.png Graphic file (type png)
+<use ./save/D_30_F_8.png>
+Package pdftex.def Info: ./save/D_30_F_8.png  used on input line 1160.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_9.png, id=2968, 578.16pt x 722.7pt>
+File: ./save/D_30_F_9.png Graphic file (type png)
+<use ./save/D_30_F_9.png>
+Package pdftex.def Info: ./save/D_30_F_9.png  used on input line 1164.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_10.png, id=2969, 578.16pt x 722.7pt>
+File: ./save/D_30_F_10.png Graphic file (type png)
+<use ./save/D_30_F_10.png>
+Package pdftex.def Info: ./save/D_30_F_10.png  used on input line 1168.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+ [17 <./save/D_10_F_29.png> <./save/D_10_F_30.png> <./save/D_30_F_1.png> <./sav
+e/D_30_F_3.png> <./save/D_30_F_4.png> <./save/D_30_F_5.png> <./save/D_30_F_6.pn
+g> <./save/D_30_F_7.png>]
+<./save/D_30_F_11.png, id=2981, 578.16pt x 722.7pt>
+File: ./save/D_30_F_11.png Graphic file (type png)
+<use ./save/D_30_F_11.png>
+Package pdftex.def Info: ./save/D_30_F_11.png  used on input line 1178.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_12.png, id=2982, 578.16pt x 722.7pt>
+File: ./save/D_30_F_12.png Graphic file (type png)
+<use ./save/D_30_F_12.png>
+Package pdftex.def Info: ./save/D_30_F_12.png  used on input line 1182.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_13.png, id=2983, 578.16pt x 722.7pt>
+File: ./save/D_30_F_13.png Graphic file (type png)
+<use ./save/D_30_F_13.png>
+Package pdftex.def Info: ./save/D_30_F_13.png  used on input line 1186.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_14.png, id=2984, 578.16pt x 722.7pt>
+File: ./save/D_30_F_14.png Graphic file (type png)
+<use ./save/D_30_F_14.png>
+Package pdftex.def Info: ./save/D_30_F_14.png  used on input line 1196.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_15.png, id=2985, 578.16pt x 722.7pt>
+File: ./save/D_30_F_15.png Graphic file (type png)
+<use ./save/D_30_F_15.png>
+Package pdftex.def Info: ./save/D_30_F_15.png  used on input line 1200.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_16.png, id=2986, 578.16pt x 722.7pt>
+File: ./save/D_30_F_16.png Graphic file (type png)
+<use ./save/D_30_F_16.png>
+Package pdftex.def Info: ./save/D_30_F_16.png  used on input line 1204.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_17.png, id=2987, 578.16pt x 722.7pt>
+File: ./save/D_30_F_17.png Graphic file (type png)
+<use ./save/D_30_F_17.png>
+Package pdftex.def Info: ./save/D_30_F_17.png  used on input line 1214.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_18.png, id=2988, 578.16pt x 722.7pt>
+File: ./save/D_30_F_18.png Graphic file (type png)
+<use ./save/D_30_F_18.png>
+Package pdftex.def Info: ./save/D_30_F_18.png  used on input line 1218.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_19.png, id=2989, 578.16pt x 722.7pt>
+File: ./save/D_30_F_19.png Graphic file (type png)
+<use ./save/D_30_F_19.png>
+Package pdftex.def Info: ./save/D_30_F_19.png  used on input line 1222.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+
+[18 <./save/D_30_F_8.png> <./save/D_30_F_9.png> <./save/D_30_F_10.png> <./save/
+D_30_F_11.png> <./save/D_30_F_12.png> <./save/D_30_F_13.png> <./save/D_30_F_14.
+png> <./save/D_30_F_15.png> <./save/D_30_F_16.png>]
+<./save/D_30_F_20.png, id=3002, 578.16pt x 722.7pt>
+File: ./save/D_30_F_20.png Graphic file (type png)
+<use ./save/D_30_F_20.png>
+Package pdftex.def Info: ./save/D_30_F_20.png  used on input line 1232.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_21.png, id=3003, 578.16pt x 722.7pt>
+File: ./save/D_30_F_21.png Graphic file (type png)
+<use ./save/D_30_F_21.png>
+Package pdftex.def Info: ./save/D_30_F_21.png  used on input line 1236.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_22.png, id=3004, 578.16pt x 722.7pt>
+File: ./save/D_30_F_22.png Graphic file (type png)
+<use ./save/D_30_F_22.png>
+Package pdftex.def Info: ./save/D_30_F_22.png  used on input line 1240.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_23.png, id=3005, 578.16pt x 722.7pt>
+File: ./save/D_30_F_23.png Graphic file (type png)
+<use ./save/D_30_F_23.png>
+Package pdftex.def Info: ./save/D_30_F_23.png  used on input line 1250.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_24.png, id=3006, 578.16pt x 722.7pt>
+File: ./save/D_30_F_24.png Graphic file (type png)
+<use ./save/D_30_F_24.png>
+Package pdftex.def Info: ./save/D_30_F_24.png  used on input line 1254.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_25.png, id=3007, 578.16pt x 722.7pt>
+File: ./save/D_30_F_25.png Graphic file (type png)
+<use ./save/D_30_F_25.png>
+Package pdftex.def Info: ./save/D_30_F_25.png  used on input line 1258.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_26.png, id=3008, 578.16pt x 722.7pt>
+File: ./save/D_30_F_26.png Graphic file (type png)
+<use ./save/D_30_F_26.png>
+Package pdftex.def Info: ./save/D_30_F_26.png  used on input line 1268.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_27.png, id=3009, 578.16pt x 722.7pt>
+File: ./save/D_30_F_27.png Graphic file (type png)
+<use ./save/D_30_F_27.png>
+Package pdftex.def Info: ./save/D_30_F_27.png  used on input line 1272.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_28.png, id=3010, 578.16pt x 722.7pt>
+File: ./save/D_30_F_28.png Graphic file (type png)
+<use ./save/D_30_F_28.png>
+Package pdftex.def Info: ./save/D_30_F_28.png  used on input line 1276.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+ [19 <./save/D_30_F_17.png> <./save/D_30_F_18.png> <./save/D_30_F_19.png> <./sa
+ve/D_30_F_20.png> <./save/D_30_F_21.png> <./save/D_30_F_22.png> <./save/D_30_F_
+23.png> <./save/D_30_F_24.png> <./save/D_30_F_25.png>]
+<./save/D_30_F_29.png, id=3024, 578.16pt x 722.7pt>
+File: ./save/D_30_F_29.png Graphic file (type png)
+<use ./save/D_30_F_29.png>
+Package pdftex.def Info: ./save/D_30_F_29.png  used on input line 1286.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_30_F_30.png, id=3025, 578.16pt x 722.7pt>
+File: ./save/D_30_F_30.png Graphic file (type png)
+<use ./save/D_30_F_30.png>
+Package pdftex.def Info: ./save/D_30_F_30.png  used on input line 1290.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_1.png, id=3026, 578.16pt x 722.7pt>
+File: ./save/D_50_F_1.png Graphic file (type png)
+<use ./save/D_50_F_1.png>
+Package pdftex.def Info: ./save/D_50_F_1.png  used on input line 1299.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_3.png, id=3027, 578.16pt x 722.7pt>
+File: ./save/D_50_F_3.png Graphic file (type png)
+<use ./save/D_50_F_3.png>
+Package pdftex.def Info: ./save/D_50_F_3.png  used on input line 1303.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_4.png, id=3028, 578.16pt x 722.7pt>
+File: ./save/D_50_F_4.png Graphic file (type png)
+<use ./save/D_50_F_4.png>
+Package pdftex.def Info: ./save/D_50_F_4.png  used on input line 1307.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_5.png, id=3029, 578.16pt x 722.7pt>
+File: ./save/D_50_F_5.png Graphic file (type png)
+<use ./save/D_50_F_5.png>
+Package pdftex.def Info: ./save/D_50_F_5.png  used on input line 1317.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_6.png, id=3030, 578.16pt x 722.7pt>
+File: ./save/D_50_F_6.png Graphic file (type png)
+<use ./save/D_50_F_6.png>
+Package pdftex.def Info: ./save/D_50_F_6.png  used on input line 1321.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_7.png, id=3031, 578.16pt x 722.7pt>
+File: ./save/D_50_F_7.png Graphic file (type png)
+<use ./save/D_50_F_7.png>
+Package pdftex.def Info: ./save/D_50_F_7.png  used on input line 1325.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+ [20 <./save/D_30_F_26.png> <./save/D_30_F_27.png> <./save/D_30_F_28.png> <./sa
+ve/D_30_F_29.png> <./save/D_30_F_30.png> <./save/D_50_F_1.png> <./save/D_50_F_3
+.png> <./save/D_50_F_4.png>]
+<./save/D_50_F_8.png, id=3043, 578.16pt x 722.7pt>
+File: ./save/D_50_F_8.png Graphic file (type png)
+<use ./save/D_50_F_8.png>
+Package pdftex.def Info: ./save/D_50_F_8.png  used on input line 1335.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_9.png, id=3044, 578.16pt x 722.7pt>
+File: ./save/D_50_F_9.png Graphic file (type png)
+<use ./save/D_50_F_9.png>
+Package pdftex.def Info: ./save/D_50_F_9.png  used on input line 1339.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_10.png, id=3045, 578.16pt x 722.7pt>
+File: ./save/D_50_F_10.png Graphic file (type png)
+<use ./save/D_50_F_10.png>
+Package pdftex.def Info: ./save/D_50_F_10.png  used on input line 1343.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_11.png, id=3046, 578.16pt x 722.7pt>
+File: ./save/D_50_F_11.png Graphic file (type png)
+<use ./save/D_50_F_11.png>
+Package pdftex.def Info: ./save/D_50_F_11.png  used on input line 1353.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_12.png, id=3047, 578.16pt x 722.7pt>
+File: ./save/D_50_F_12.png Graphic file (type png)
+<use ./save/D_50_F_12.png>
+Package pdftex.def Info: ./save/D_50_F_12.png  used on input line 1357.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_13.png, id=3048, 578.16pt x 722.7pt>
+File: ./save/D_50_F_13.png Graphic file (type png)
+<use ./save/D_50_F_13.png>
+Package pdftex.def Info: ./save/D_50_F_13.png  used on input line 1361.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_14.png, id=3049, 578.16pt x 722.7pt>
+File: ./save/D_50_F_14.png Graphic file (type png)
+<use ./save/D_50_F_14.png>
+Package pdftex.def Info: ./save/D_50_F_14.png  used on input line 1371.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_15.png, id=3050, 578.16pt x 722.7pt>
+File: ./save/D_50_F_15.png Graphic file (type png)
+<use ./save/D_50_F_15.png>
+Package pdftex.def Info: ./save/D_50_F_15.png  used on input line 1375.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_16.png, id=3051, 578.16pt x 722.7pt>
+File: ./save/D_50_F_16.png Graphic file (type png)
+<use ./save/D_50_F_16.png>
+Package pdftex.def Info: ./save/D_50_F_16.png  used on input line 1379.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+ [21 <./save/D_50_F_5.png> <./save/D_50_F_6.png> <./save/D_50_F_7.png> <./save/
+D_50_F_8.png> <./save/D_50_F_9.png> <./save/D_50_F_10.png> <./save/D_50_F_11.pn
+g> <./save/D_50_F_12.png> <./save/D_50_F_13.png>]
+<./save/D_50_F_17.png, id=3064, 578.16pt x 722.7pt>
+File: ./save/D_50_F_17.png Graphic file (type png)
+<use ./save/D_50_F_17.png>
+Package pdftex.def Info: ./save/D_50_F_17.png  used on input line 1389.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_18.png, id=3065, 578.16pt x 722.7pt>
+File: ./save/D_50_F_18.png Graphic file (type png)
+<use ./save/D_50_F_18.png>
+Package pdftex.def Info: ./save/D_50_F_18.png  used on input line 1393.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_19.png, id=3066, 578.16pt x 722.7pt>
+File: ./save/D_50_F_19.png Graphic file (type png)
+<use ./save/D_50_F_19.png>
+Package pdftex.def Info: ./save/D_50_F_19.png  used on input line 1397.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_20.png, id=3067, 578.16pt x 722.7pt>
+File: ./save/D_50_F_20.png Graphic file (type png)
+<use ./save/D_50_F_20.png>
+Package pdftex.def Info: ./save/D_50_F_20.png  used on input line 1407.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_21.png, id=3068, 578.16pt x 722.7pt>
+File: ./save/D_50_F_21.png Graphic file (type png)
+<use ./save/D_50_F_21.png>
+Package pdftex.def Info: ./save/D_50_F_21.png  used on input line 1411.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_22.png, id=3069, 578.16pt x 722.7pt>
+File: ./save/D_50_F_22.png Graphic file (type png)
+<use ./save/D_50_F_22.png>
+Package pdftex.def Info: ./save/D_50_F_22.png  used on input line 1415.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_23.png, id=3070, 578.16pt x 722.7pt>
+File: ./save/D_50_F_23.png Graphic file (type png)
+<use ./save/D_50_F_23.png>
+Package pdftex.def Info: ./save/D_50_F_23.png  used on input line 1425.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_24.png, id=3071, 578.16pt x 722.7pt>
+File: ./save/D_50_F_24.png Graphic file (type png)
+<use ./save/D_50_F_24.png>
+Package pdftex.def Info: ./save/D_50_F_24.png  used on input line 1429.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_25.png, id=3072, 578.16pt x 722.7pt>
+File: ./save/D_50_F_25.png Graphic file (type png)
+<use ./save/D_50_F_25.png>
+Package pdftex.def Info: ./save/D_50_F_25.png  used on input line 1433.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+ [22 <./save/D_50_F_14.png> <./save/D_50_F_15.png> <./save/D_50_F_16.png> <./sa
+ve/D_50_F_17.png> <./save/D_50_F_18.png> <./save/D_50_F_19.png> <./save/D_50_F_
+20.png> <./save/D_50_F_21.png> <./save/D_50_F_22.png>]
+<./save/D_50_F_26.png, id=3085, 578.16pt x 722.7pt>
+File: ./save/D_50_F_26.png Graphic file (type png)
+<use ./save/D_50_F_26.png>
+Package pdftex.def Info: ./save/D_50_F_26.png  used on input line 1443.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_27.png, id=3086, 578.16pt x 722.7pt>
+File: ./save/D_50_F_27.png Graphic file (type png)
+<use ./save/D_50_F_27.png>
+Package pdftex.def Info: ./save/D_50_F_27.png  used on input line 1447.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_28.png, id=3087, 578.16pt x 722.7pt>
+File: ./save/D_50_F_28.png Graphic file (type png)
+<use ./save/D_50_F_28.png>
+Package pdftex.def Info: ./save/D_50_F_28.png  used on input line 1451.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_29.png, id=3088, 578.16pt x 722.7pt>
+File: ./save/D_50_F_29.png Graphic file (type png)
+<use ./save/D_50_F_29.png>
+Package pdftex.def Info: ./save/D_50_F_29.png  used on input line 1461.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_50_F_30.png, id=3089, 578.16pt x 722.7pt>
+File: ./save/D_50_F_30.png Graphic file (type png)
+<use ./save/D_50_F_30.png>
+Package pdftex.def Info: ./save/D_50_F_30.png  used on input line 1465.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_1.png, id=3090, 578.16pt x 722.7pt>
+File: ./save/D_100_F_1.png Graphic file (type png)
+<use ./save/D_100_F_1.png>
+Package pdftex.def Info: ./save/D_100_F_1.png  used on input line 1474.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_3.png, id=3091, 578.16pt x 722.7pt>
+File: ./save/D_100_F_3.png Graphic file (type png)
+<use ./save/D_100_F_3.png>
+Package pdftex.def Info: ./save/D_100_F_3.png  used on input line 1478.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_4.png, id=3092, 578.16pt x 722.7pt>
+File: ./save/D_100_F_4.png Graphic file (type png)
+<use ./save/D_100_F_4.png>
+Package pdftex.def Info: ./save/D_100_F_4.png  used on input line 1482.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+
+[23 <./save/D_50_F_23.png> <./save/D_50_F_24.png> <./save/D_50_F_25.png> <./sav
+e/D_50_F_26.png> <./save/D_50_F_27.png> <./save/D_50_F_28.png> <./save/D_50_F_2
+9.png> <./save/D_50_F_30.png>]
+<./save/D_100_F_5.png, id=3104, 578.16pt x 722.7pt>
+File: ./save/D_100_F_5.png Graphic file (type png)
+<use ./save/D_100_F_5.png>
+Package pdftex.def Info: ./save/D_100_F_5.png  used on input line 1492.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_6.png, id=3105, 578.16pt x 722.7pt>
+File: ./save/D_100_F_6.png Graphic file (type png)
+<use ./save/D_100_F_6.png>
+Package pdftex.def Info: ./save/D_100_F_6.png  used on input line 1496.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_7.png, id=3106, 578.16pt x 722.7pt>
+File: ./save/D_100_F_7.png Graphic file (type png)
+<use ./save/D_100_F_7.png>
+Package pdftex.def Info: ./save/D_100_F_7.png  used on input line 1500.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_8.png, id=3107, 578.16pt x 722.7pt>
+File: ./save/D_100_F_8.png Graphic file (type png)
+<use ./save/D_100_F_8.png>
+Package pdftex.def Info: ./save/D_100_F_8.png  used on input line 1510.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_9.png, id=3108, 578.16pt x 722.7pt>
+File: ./save/D_100_F_9.png Graphic file (type png)
+<use ./save/D_100_F_9.png>
+Package pdftex.def Info: ./save/D_100_F_9.png  used on input line 1514.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_10.png, id=3109, 578.16pt x 722.7pt>
+File: ./save/D_100_F_10.png Graphic file (type png)
+<use ./save/D_100_F_10.png>
+Package pdftex.def Info: ./save/D_100_F_10.png  used on input line 1518.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_11.png, id=3110, 578.16pt x 722.7pt>
+File: ./save/D_100_F_11.png Graphic file (type png)
+<use ./save/D_100_F_11.png>
+Package pdftex.def Info: ./save/D_100_F_11.png  used on input line 1528.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_12.png, id=3111, 578.16pt x 722.7pt>
+File: ./save/D_100_F_12.png Graphic file (type png)
+<use ./save/D_100_F_12.png>
+Package pdftex.def Info: ./save/D_100_F_12.png  used on input line 1532.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_13.png, id=3112, 578.16pt x 722.7pt>
+File: ./save/D_100_F_13.png Graphic file (type png)
+<use ./save/D_100_F_13.png>
+Package pdftex.def Info: ./save/D_100_F_13.png  used on input line 1536.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+ [24 <./save/D_100_F_1.png> <./save/D_100_F_3.png> <./save/D_100_F_4.png> <./sa
+ve/D_100_F_5.png> <./save/D_100_F_6.png> <./save/D_100_F_7.png> <./save/D_100_F
+_8.png> <./save/D_100_F_9.png> <./save/D_100_F_10.png>]
+<./save/D_100_F_14.png, id=3125, 578.16pt x 722.7pt>
+File: ./save/D_100_F_14.png Graphic file (type png)
+<use ./save/D_100_F_14.png>
+Package pdftex.def Info: ./save/D_100_F_14.png  used on input line 1546.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_15.png, id=3126, 578.16pt x 722.7pt>
+File: ./save/D_100_F_15.png Graphic file (type png)
+<use ./save/D_100_F_15.png>
+Package pdftex.def Info: ./save/D_100_F_15.png  used on input line 1550.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_16.png, id=3127, 578.16pt x 722.7pt>
+File: ./save/D_100_F_16.png Graphic file (type png)
+<use ./save/D_100_F_16.png>
+Package pdftex.def Info: ./save/D_100_F_16.png  used on input line 1554.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_17.png, id=3128, 578.16pt x 722.7pt>
+File: ./save/D_100_F_17.png Graphic file (type png)
+<use ./save/D_100_F_17.png>
+Package pdftex.def Info: ./save/D_100_F_17.png  used on input line 1564.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_18.png, id=3129, 578.16pt x 722.7pt>
+File: ./save/D_100_F_18.png Graphic file (type png)
+<use ./save/D_100_F_18.png>
+Package pdftex.def Info: ./save/D_100_F_18.png  used on input line 1568.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_19.png, id=3130, 578.16pt x 722.7pt>
+File: ./save/D_100_F_19.png Graphic file (type png)
+<use ./save/D_100_F_19.png>
+Package pdftex.def Info: ./save/D_100_F_19.png  used on input line 1572.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_20.png, id=3131, 578.16pt x 722.7pt>
+File: ./save/D_100_F_20.png Graphic file (type png)
+<use ./save/D_100_F_20.png>
+Package pdftex.def Info: ./save/D_100_F_20.png  used on input line 1582.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_21.png, id=3132, 578.16pt x 722.7pt>
+File: ./save/D_100_F_21.png Graphic file (type png)
+<use ./save/D_100_F_21.png>
+Package pdftex.def Info: ./save/D_100_F_21.png  used on input line 1586.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_22.png, id=3133, 578.16pt x 722.7pt>
+File: ./save/D_100_F_22.png Graphic file (type png)
+<use ./save/D_100_F_22.png>
+Package pdftex.def Info: ./save/D_100_F_22.png  used on input line 1590.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+ [25 <./save/D_100_F_11.png> <./save/D_100_F_12.png> <./save/D_100_F_13.png> <.
+/save/D_100_F_14.png> <./save/D_100_F_15.png> <./save/D_100_F_16.png> <./save/D
+_100_F_17.png> <./save/D_100_F_18.png> <./save/D_100_F_19.png>]
+<./save/D_100_F_23.png, id=3148, 578.16pt x 722.7pt>
+File: ./save/D_100_F_23.png Graphic file (type png)
+<use ./save/D_100_F_23.png>
+Package pdftex.def Info: ./save/D_100_F_23.png  used on input line 1600.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_24.png, id=3149, 578.16pt x 722.7pt>
+File: ./save/D_100_F_24.png Graphic file (type png)
+<use ./save/D_100_F_24.png>
+Package pdftex.def Info: ./save/D_100_F_24.png  used on input line 1604.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_25.png, id=3150, 578.16pt x 722.7pt>
+File: ./save/D_100_F_25.png Graphic file (type png)
+<use ./save/D_100_F_25.png>
+Package pdftex.def Info: ./save/D_100_F_25.png  used on input line 1608.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_26.png, id=3151, 578.16pt x 722.7pt>
+File: ./save/D_100_F_26.png Graphic file (type png)
+<use ./save/D_100_F_26.png>
+Package pdftex.def Info: ./save/D_100_F_26.png  used on input line 1618.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_27.png, id=3152, 578.16pt x 722.7pt>
+File: ./save/D_100_F_27.png Graphic file (type png)
+<use ./save/D_100_F_27.png>
+Package pdftex.def Info: ./save/D_100_F_27.png  used on input line 1622.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_28.png, id=3153, 578.16pt x 722.7pt>
+File: ./save/D_100_F_28.png Graphic file (type png)
+<use ./save/D_100_F_28.png>
+Package pdftex.def Info: ./save/D_100_F_28.png  used on input line 1626.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_29.png, id=3154, 578.16pt x 722.7pt>
+File: ./save/D_100_F_29.png Graphic file (type png)
+<use ./save/D_100_F_29.png>
+Package pdftex.def Info: ./save/D_100_F_29.png  used on input line 1636.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+<./save/D_100_F_30.png, id=3155, 578.16pt x 722.7pt>
+File: ./save/D_100_F_30.png Graphic file (type png)
+<use ./save/D_100_F_30.png>
+Package pdftex.def Info: ./save/D_100_F_30.png  used on input line 1640.
+(pdftex.def)             Requested size: 154.80157pt x 193.49953pt.
+ [26 <./save/D_100_F_20.png> <./save/D_100_F_21.png> <./save/D_100_F_22.png> <.
+/save/D_100_F_23.png> <./save/D_100_F_24.png> <./save/D_100_F_25.png> <./save/D
+_100_F_26.png> <./save/D_100_F_27.png> <./save/D_100_F_28.png>] [27 <./save/D_1
+00_F_29.png> <./save/D_100_F_30.png>] (./plt.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-04-11>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 10417 strings out of 474050
+ 202075 string characters out of 5746299
+ 1932754 words of memory out of 5000000
+ 32706 multiletter control sequences out of 15000+600000
+ 613615 words of font info for 132 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 57i,8n,65p,1042b,321s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><c:/texlive/2
+024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fon
+ts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times
+/utmri8a.pfb>
+Output written on plt.pdf (27 pages, 14700209 bytes).
+PDF statistics:
+ 3193 PDF objects out of 3580 (max. 8388607)
+ 825 compressed objects within 9 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1331 words of extra memory for PDF output out of 10000 (max. 10000000)
+

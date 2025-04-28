@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2021/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: RPSO.aux
+The style file: elsarticle-num-names.bst
+Database file #1: reference_clean.bib
+You've used 47 entries,
+            2793 wiz_defined-function locations,
+            871 strings with 14527 characters,
+and the built_in function-call counts, 29969 in all, are:
+= -- 1736
+> -- 1252
+< -- 13
++ -- 502
+- -- 386
+* -- 4179
+:= -- 3975
+add.period$ -- 47
+call.type$ -- 47
+change.case$ -- 188
+chr.to.int$ -- 47
+cite$ -- 47
+duplicate$ -- 2303
+empty$ -- 2210
+format.name$ -- 553
+if$ -- 5298
+int.to.chr$ -- 1
+int.to.str$ -- 48
+missing$ -- 612
+newline$ -- 151
+num.names$ -- 141
+pop$ -- 639
+preamble$ -- 1
+purify$ -- 235
+quote$ -- 0
+skip$ -- 549
+stack$ -- 0
+substring$ -- 1698
+swap$ -- 2180
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 282
+warning$ -- 0
+while$ -- 170
+width$ -- 0
+write$ -- 479
